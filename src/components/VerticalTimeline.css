@@ -1,0 +1,168 @@
+.vertical-timeline {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+/* External header - aligns with external-headers-row (40px min-height) */
+.timeline-external-header {
+  min-height: var(--topbar-height);
+  background: var(--grey-1);
+}
+
+.timeline-external-header-highlighted {
+  background-color: var(--Yellow);
+}
+
+.timeline-title {
+  background: transparent;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-family: 'ABC Diatype Medium', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--report-section-text-size);
+  /* Same line box as .external-header-cell in TableDisplay.css: this header band
+     runs across the timeline, the patterns panel and the table, so a taller line
+     box here would drop the title a pixel below its neighbours. */
+  line-height: var(--report-section-text-size);
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+/* Column header - aligns with column-headers-row */
+.timeline-column-header {
+  background: transparent;
+  border-left: 1px solid var(--grey-3);
+  border-right: 1px solid var(--grey-3);
+  border-top: 1px solid var(--grey-3);
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  min-height: fit-content;
+}
+
+/* Timeline content — vertical stack of three gapped panels */
+.timeline-content {
+  flex: 1;
+  position: relative;
+  background: transparent;
+  margin-bottom: 40px;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Each dataset panel is its own bordered box. flex-grow is set inline,
+   proportional to the panel's item count, so bar density stays constant
+   across panels. */
+.timeline-panel {
+  position: relative;
+  min-height: 0;
+  display: flex;
+  background: white;
+  border: 0.5px solid #cbcbcb;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Guide, Timeline tab: the whole column lights up, panels and gaps alike. */
+.timeline-gap-highlighted,
+.timeline-panel-highlighted,
+.timeline-panel-highlighted .timeline-years {
+  background: var(--Yellow);
+}
+
+/* Narrow gap between panels (2021 and 2023 breaks), matching the design. Clicking
+   it jumps to the break; the strip is small, so the panel edges are the main target. */
+.timeline-gap {
+  flex: 0 0 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.timeline-gap.disabled {
+  cursor: default;
+}
+
+/* Year markers column */
+.timeline-years {
+  /* Design: gutter is 1/3 of the panel, so the bars take the other 2/3 */
+  width: 33.333%;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+  background: white;
+}
+
+/* Timeline bars column */
+.timeline-bars {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Wrapper for individual timeline bars */
+.timeline-bar-wrapper {
+  width: 100%;
+  min-height: 0.1px;
+  display: flex;
+}
+
+/* Violation dots */
+.timeline-violation-dot {
+  position: absolute;
+  left: 65%;
+  width: 3.5px;
+  height: 3.5px;
+  border-radius: 50%;
+  border: 0.5px solid var(--red-liminal);
+  background: transparent;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 6;
+  transition: background 0.12s ease;
+}
+
+.timeline-violation-dot.active {
+  background: var(--red-liminal);
+}
+
+.vertical-timeline.pattern-mode .timeline-violation-dot:hover {
+  background: var(--red-liminal);
+}
+
+/* Pattern mode: dim bars and year markers, keep dots and scroll indicator full strength.
+   Target .year-marker rather than the .timeline-years container, since the dots are
+   siblings inside that same container and a parent opacity would dim them too. */
+.vertical-timeline.pattern-mode .timeline-bars,
+.vertical-timeline.pattern-mode .year-marker {
+  opacity: .3;
+}
+
+.vertical-timeline.pattern-mode .timeline-panel {
+  cursor: default;
+}
+
+/* Dim dots not belonging to the active pattern */
+.vertical-timeline.pattern-mode .timeline-violation-dot:not(.active) {
+  opacity: .2;
+  transition: opacity 0.2s;
+}
+
+/* Scroll indicator bar */
+.scroll-indicator {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--blue-6);
+  transition: top 0.1s ease-out;
+  pointer-events: none;
+  z-index: 10;
+}

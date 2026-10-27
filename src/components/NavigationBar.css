@@ -1,0 +1,267 @@
+.navigation-bar {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 1fr var(--page-horizontal-padding);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: var(--grey-3);
+}
+
+.logo-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  background: var(--white);
+  width: var(--logo-button-width);
+  height: 50px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.logo-icon {
+  width: 33px;
+  height: 30px;
+  flex-shrink: 0;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* Cross overlay — only used as the mobile menu toggle; hidden on desktop. */
+.logo-cross {
+  display: none;
+}
+
+.home-tab {
+  display: flex;
+  padding: 8px 19px 8px 16px;
+  align-items: center;
+  gap: 10px;
+  background: var(--blue-5-liminal);
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.home-tab:hover {
+  background: #0f35d1;
+}
+
+.home-tab .tab-text {
+  color: var(--white);
+  font-family:
+    "ABC Diatype Edu",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  /* Type L, the same style the sticky section titles are set in — the two are
+     the page's navigation furniture and read as one size. */
+  font-size: var(--type-l-size);
+  font-style: normal;
+  font-weight: var(--weight-regular);
+  line-height: 124%;
+  position: relative;
+}
+
+.nav-tab {
+  display: flex;
+  padding: 8px 19px 8px 16px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  background: var(--grey-3);
+  position: relative;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-tab:hover {
+  background: #999;
+}
+
+.nav-tab.visited .tab-text {
+  color: var(--black);
+}
+
+.nav-tab.visited {
+  background-color: var(--grey-shade-1);
+}
+
+.nav-tab .tab-text {
+  color: var(--white);
+  font-family:
+    "ABC Diatype Edu",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  /* Type L, the same style the sticky section titles are set in — the two are
+     the page's navigation furniture and read as one size. */
+  font-size: var(--type-l-size);
+  font-style: normal;
+  font-weight: var(--weight-regular);
+  line-height: 124%;
+  position: relative;
+}
+
+/* Desktop: the bar is exactly one logo tall. Tab labels stay on one line (truncating
+   if the viewport is too narrow) so a wrapped label can never stretch the row. */
+@media (min-width: 769px) {
+  .navigation-bar {
+    grid-template-rows: 50px;
+    height: 50px;
+  }
+
+  .home-tab,
+  .nav-tab {
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .nav-tab .tab-text,
+  .home-tab .tab-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-tab .tab-text,
+  .home-tab .tab-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-tab .tab-text,
+  .home-tab .tab-text {
+    font-size: 15px;
+  }
+}
+
+.padder-tab {
+  background: var(--grey-3);
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile: the desktop 6-column grid cannot fit the title + three section tabs
+   legibly (they overflow horizontally), so drop the grid and stack vertically.
+   The nav collapses to just the logo + the active tab; clicking the logo (which
+   animates into a cross) expands the full stacked menu as an overlay. The nav
+   stays pinned (position:fixed) and, collapsed, is one row tall — so the default
+   --topbar-height (50px) offset still clears it and the open menu overlays. */
+@media (max-width: 768px) {
+  /* A short mobile bar — about half the desktop height. Page offsets track
+     --topbar-height, and the logo square/basis track --logo-button-width. */
+  :root {
+    --topbar-height: 35px;
+    --logo-button-width: 35px;
+  }
+
+  .navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: none;
+  }
+
+  .logo-button {
+    height: 35px;
+  }
+
+  .logo-icon {
+    width: 20px;
+    height: 18px;
+  }
+
+  .home-tab {
+    /* Fill the rest of the top row alongside the logo. */
+    flex: 1 1 calc(100% - var(--logo-button-width));
+    min-height: 35px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+  }
+
+  .nav-tab {
+    /* Each section tab on its own full-width row, stacked vertically. */
+    flex: 1 0 100%;
+    min-height: 35px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+
+  .padder-tab {
+    display: none;
+  }
+
+  /* Collapsed (menu closed): show only the logo + the active tab. */
+  .navigation-bar:not(.nav-open) .home-tab:not(.active),
+  .navigation-bar:not(.nav-open) .nav-tab:not(.active) {
+    display: none;
+  }
+
+  /* When collapsed, the active section tab sits beside the logo on one row
+     (rather than wrapping to its own full-width row as it does when open), so
+     the collapsed bar stays a single row tall. */
+  .navigation-bar:not(.nav-open) .nav-tab.active {
+    flex: 1 1 calc(100% - var(--logo-button-width));
+  }
+
+  /* Keep the active tab visible in white, overriding the "visited" inversion. */
+  .navigation-bar .nav-tab.active {
+    background: var(--grey-3);
+  }
+
+  .navigation-bar .nav-tab.active .tab-text {
+    color: var(--white);
+  }
+
+  /* Logo ⇄ cross toggle. The liminal mark fades/rotates out as two bars rotate
+     into an X. */
+  .logo-cross {
+    display: block;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  .logo-cross::before,
+  .logo-cross::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 2px;
+    background: var(--black);
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform 0.25s ease;
+  }
+
+  .nav-open .logo-icon {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.6);
+  }
+
+  .nav-open .logo-cross {
+    opacity: 1;
+  }
+
+  .nav-open .logo-cross::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .nav-open .logo-cross::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

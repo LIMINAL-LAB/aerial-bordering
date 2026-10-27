@@ -1,0 +1,113 @@
+.patterns-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.patterns-external-header {
+  min-height: var(--topbar-height);
+  display: flex;
+  align-items: baseline;
+  /* The "?" sits at the column's right edge, as the Timeline header's does. */
+  justify-content: space-between;
+}
+
+.patterns-external-header.guide-highlight,
+.patterns-list.guide-highlight {
+  background: var(--Yellow);
+  transition: background-color 0.3s ease;
+}
+
+.patterns-title {
+  color: var(--red-liminal);
+  font-family: 'ABC Diatype Medium', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--report-section-text-size);
+  /* Same line box as .external-header-cell in TableDisplay.css, so this title
+     sits on the same line as the table's headers to its right. */
+  line-height: var(--report-section-text-size);
+  font-weight: 500;
+}
+
+.patterns-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pattern-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.pattern-row-dot {
+  box-sizing: border-box;
+  margin-top: 3px;
+  width: var(--pattern-dot-size);
+  height: var(--pattern-dot-size);
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid var(--pattern-color);
+  background: transparent;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+/* Fill the dot on hover and when active */
+.pattern-row:hover .pattern-row-dot,
+.pattern-row.pattern-active .pattern-row-dot {
+  background: var(--pattern-color);
+}
+
+.pattern-row-label {
+  font-family: 'ABC Diatype Medium', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  transition: color 0.12s ease;
+}
+
+/* Same frame shape as the GUIDE / .pdf-download button (pill, 20px label, icon
+   left), but coloured to match the rest of the patterns panel: red outline + red
+   text, filling red with white text on hover. Cross icon replaces the PDF down-arrow. */
+.patterns-clear-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* Cross sits tight against the label. */
+  gap: calc(var(--pill-font-size) * 0.25);
+  align-self: flex-start;
+  max-width: 100%;
+  /* Lets the label and icon shrink inside the frame instead of overflowing it. */
+  min-width: 0;
+  box-sizing: border-box;
+  /* The frame grows from its own text rather than a fixed height, so it tracks
+     --pill-font-size down as the patterns column narrows. At the 20px ceiling
+     these reproduce the previous 0 12px padding on a 42px-tall pill. */
+  padding: calc(var(--pill-font-size) * 0.325) calc(var(--pill-font-size) * 0.6);
+  background: transparent;
+  color: var(--red-liminal);
+  border: 1.5px solid var(--red-liminal);
+  /* Pill radius that no longer depends on knowing the height. */
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: var(--pill-font-size);
+  font-weight: 400;
+  line-height: var(--pill-line-height);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.patterns-clear-button:hover {
+  background: var(--red-liminal);
+  color: var(--white);
+}
+
+.patterns-clear-icon {
+  flex-shrink: 0;
+  width: var(--pill-icon-size);
+  height: var(--pill-icon-size);
+}

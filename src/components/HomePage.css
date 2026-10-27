@@ -1,0 +1,50 @@
+.home-page {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  background-color: #000;
+  margin-top: 10px;
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+
+.home-page.fade-out {
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    /* No horizontal padding — ContentSection centers and gutters its own text;
+       adding side padding here shifted the content off-centre. */
+    padding: 0 0 50px 0;
+    width: 100%;
+    min-height: auto;
+    /* Gentler than mandatory for touch scrolling — sections still snap when the
+       swipe comes to rest near one, without trapping the gesture. */
+    scroll-snap-type: y proximity;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding: 0 0 30px 0;
+  }
+}
+
+.home-page-video {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}

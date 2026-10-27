@@ -1,0 +1,84 @@
+/* Shared sticky section-title overlay (Report + Methodology pages). */
+/* The overlay copy of a title has to land exactly where the inline gutter copy
+   it replaces sits, or the swap reads as a jump. Both pages open their document
+   at this same top padding, so the offset tracks it rather than restating it. */
+.sticky-titles-overlay {
+  position: fixed;
+  top: calc(var(--topbar-height) + 40px);
+  left: var(--page-horizontal-padding);
+  width: var(--sidebar-column-width);
+  z-index: 90;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+
+/* Titles. Hidden items collapse (display:none) so the visible ones stack
+   cleanly regardless of how many sections there are. */
+.sticky-title {
+  display: none;
+  font-size: var(--type-l-size);
+  font-weight: var(--weight-regular);
+  line-height: var(--type-l-line);
+  background: var(--grey-shade-1);
+  /* Matches .section-title-placeholder's zero padding — the two are the same
+     title in two places and must measure identically. */
+  padding: 0;
+  pointer-events: auto;
+  cursor: pointer;
+  border-radius: 2px;
+  color: var(--grey-3);
+  transition: color 0.2s ease;
+}
+
+.sticky-title.visible {
+  display: block;
+}
+
+/* Chapters sit under the document-level entries as a smaller, bolder group. */
+.sticky-title-chapter {
+  font-size: var(--type-s-size);
+  line-height: var(--type-s-line);
+  font-weight: var(--weight-bold);
+}
+
+.sticky-title:hover {
+  color: var(--black);
+}
+
+/* Active chapter reads as the darkest item; the design explicitly rules out
+   bold highlighting, so this sets colour only. Declaring a weight here would
+   outrank .sticky-title-chapter and strip a chapter of its Bold S on arrival. */
+.sticky-title.active {
+  color: var(--black);
+}
+
+/* Subsections: nested to the right and smaller to read as subheadings. */
+.sticky-subtitle {
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 120%;
+  color: #666;
+  transition: opacity 0.12s ease, color 0.2s ease;
+}
+
+.sticky-subtitle.active {
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* Inline section title shown in the gutter; hidden once its sticky title
+   takes over. */
+.section-title-placeholder {
+  font-size: var(--report-header-text-size);
+  font-weight: 400;
+  line-height: 124%;
+  background: var(--grey-shade-1);
+  padding: 0;
+}
+
+.invisible .section-title-placeholder {
+  visibility: hidden;
+}

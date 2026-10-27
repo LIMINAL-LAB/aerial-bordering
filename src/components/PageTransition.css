@@ -1,0 +1,52 @@
+/* The backdrop. Never transformed, never faded: it only holds the current page's ground
+   colour so that the instant the content above it is transparent, the reader sees that
+   ground rather than the black <body> underneath (src/index.css:91). Its colour is set
+   inline per route by PageTransition.jsx. */
+.page-transition {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page-transition-inner {
+  /* No transform in the resting state: a transform here would become the containing
+     block for the report's position: fixed and position: sticky elements. */
+  width: 100%;
+}
+
+/* Out is quicker than in: leaving should feel like the page getting out of the way,
+   arriving like it settling. */
+.page-transition-inner.is-leaving-animating {
+  transition: transform 180ms ease-in, opacity 180ms ease-in;
+  will-change: transform, opacity;
+}
+
+.page-transition-inner.is-entering-animating {
+  transition: transform 240ms ease-out, opacity 240ms ease-out;
+  will-change: transform, opacity;
+}
+
+.page-transition-inner.is-leaving.forward { transform: translateX(-4%); opacity: 0; }
+.page-transition-inner.is-leaving.backward { transform: translateX(4%); opacity: 0; }
+
+/* Entering: applied WITHOUT a transition class for one frame so the incoming page snaps
+   to its start point instantly, then the transition is added (and this offset removed) so
+   it travels home. */
+.page-transition-inner.is-entering.forward { transform: translateX(4%); opacity: 0; }
+.page-transition-inner.is-entering.backward { transform: translateX(-4%); opacity: 0; }
+
+/* The offset rules above are more specific than the transition classes, so nulling those
+   alone would leave a reduced-motion reader staring at a displaced, invisible page for the
+   length of the swap. The phase machine skips the slide entirely in that case; these rules
+   are the belt-and-braces. */
+@media (prefers-reduced-motion: reduce) {
+  .page-transition-inner.is-leaving-animating,
+  .page-transition-inner.is-entering-animating,
+  .page-transition-inner.is-leaving.forward,
+  .page-transition-inner.is-leaving.backward,
+  .page-transition-inner.is-entering.forward,
+  .page-transition-inner.is-entering.backward {
+    transition: none;
+    transform: none;
+    opacity: 1;
+  }
+}

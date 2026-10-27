@@ -1,0 +1,102 @@
+/* TimelineBar Component Styles */
+
+.timeline-bar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 0.1px; /* Ensure visibility even at tiny heights */
+}
+
+.timeline-bar__segment {
+  min-width: 0;
+
+  /* Performance optimizations for rendering many elements */
+  contain: layout style paint;
+}
+
+/* Grey (JORA density) is the wide left area; blue (flight hours) a narrow
+   right column — a ~70/30 split. */
+.timeline-bar__segment--grey {
+  flex: 7;
+}
+
+.timeline-bar__segment--blue {
+  flex: 3;
+}
+
+/* Grey intensity levels for JORA count (0 = no data/empty) */
+.grey-0 {
+  background-color: transparent;
+}
+
+.grey-1 {
+  background-color: #e5e7eb; /* Lightest grey */
+}
+
+.grey-2 {
+  background-color: #d1d5db; /* Light grey */
+}
+
+.grey-3 {
+  background-color: #9ca3af; /* Medium grey */
+}
+
+.grey-4 {
+  background-color: #6b7280; /* Dark grey */
+}
+
+.grey-5 {
+  background-color: #4b5563; /* Darkest grey */
+}
+
+/* Blue intensity levels for flight hours (0 = no data/empty) */
+.blue-0 {
+  background-color: transparent;
+}
+
+.blue-1 {
+  background-color: #dbeafe; /* Very light blue */
+}
+
+.blue-2 {
+  background-color: #93c5fd; /* Light blue */
+}
+
+.blue-3 {
+  background-color: #60a5fa; /* Medium blue */
+}
+
+.blue-4 {
+  background-color: #3b82f6; /* Dark blue */
+}
+
+.blue-5 {
+  background-color: #2563eb; /* Very dark blue */
+}
+
+/* Purple intensity levels for Irini case count (0 = no data/empty). Tints of
+   --purple-irini (#6606ff) at roughly 12/30/48/66/84% strength; the full
+   #6606ff is reserved for the Irini row text, not used as a bar shade. */
+.purple-0 {
+  background-color: transparent;
+}
+
+.purple-1 {
+  background-color: #ede1ff; /* Very light purple */
+}
+
+.purple-2 {
+  background-color: #d1b4ff; /* Light purple */
+}
+
+.purple-3 {
+  background-color: #b687ff; /* Medium purple */
+}
+
+.purple-4 {
+  background-color: #9a5bff; /* Dark purple */
+}
+
+.purple-5 {
+  background-color: #7e2eff; /* Very dark purple */
+}

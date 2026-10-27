@@ -1,0 +1,17 @@
+[
+  {
+    "key": "selective-comms",
+    "label": "Selective Comms",
+    "order": 1
+  },
+  {
+    "key": "violence",
+    "label": "Violence",
+    "order": 2
+  },
+  {
+    "key": "mt-sar",
+    "label": "MT SAR",
+    "order": 3
+  }
+]

@@ -1,0 +1,117 @@
+.content-section {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.section-inner {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 0 20px;
+  /* Without border-box, width:100% + padding overflows the flex container and a
+     too-wide item won't centre, shifting the text off-centre. */
+  box-sizing: border-box;
+}
+
+.text-container {
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section-inner {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-inner {
+    max-width: 350px;
+  }
+}
+
+.text-content {
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--black);
+  text-align: center;
+  font-family:
+    "ABC Diatype Edu",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .text-content {
+    font-size: 20px;
+    line-height: 130%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-content {
+    font-size: 16px;
+    line-height: 140%;
+    padding: 12px;
+  }
+}
+
+.section-text {
+  font-family:
+    "ABC Diatype Edu",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: var(--black);
+  background: var(--Yellow);
+  padding: 3px 2px;
+  display: inline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  line-height: 1.2;
+}
+
+/* Scoped to the home section (beats the bare .section-text rules, including the
+   colliding one in ReportPage.css). Break long uppercase words so a line never
+   grows wider than the column — otherwise centered text overflows and reads as
+   off-centre — and apply the same mobile sizing as .text-content (the span's own
+   font-size would otherwise keep it at 26px on mobile). */
+.text-content .section-text {
+  overflow-wrap: anywhere;
+}
+
+/* Even out line lengths; orphans are prevented in ContentSection.jsx. */
+.text-content {
+  text-wrap: balance;
+}
+
+@media (max-width: 768px) {
+  .text-content .section-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-content .section-text {
+    font-size: 16px;
+  }
+}

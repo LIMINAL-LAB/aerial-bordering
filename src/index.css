@@ -1,0 +1,140 @@
+:root {
+  --Yellow: #ffff53;
+  --black: #000;
+  --white: #fff;
+  --grey-1: #F2F2F2;
+  --grey-2: #D5D5D5;
+  --grey-3: #aaa;
+  --blue-5-liminal: #1140ed;
+  --blue-6: #0B2EA5;
+  --purple-irini: #6606ff;
+
+  /* Shared grid system for consistent alignment across pages */
+  /* The inline gutter copy of a section title must measure exactly as its
+     sticky copy does, so it tracks Type L rather than restating a size. */
+  --report-header-text-size: var(--type-l-size);
+  --report-section-text-size: 16px;
+  --topbar-height: 50px;
+  --logo-button-width: 50px;
+  --page-horizontal-padding: 50px;
+  --nav-tab-width: calc((100vw - var(--page-horizontal-padding) * 2) / 4);
+  --sidebar-column-width: var(--nav-tab-width);
+  --nav-subcolumn-width: calc(var(--nav-tab-width) / 3);
+
+  /* Figma text styles, named as in the design file. Lara's review names these
+     styles rather than pixel values, so they are defined once here and consumed
+     by name. Bold S is not yet confirmed against the design file. */
+  --type-l-size: 24px;
+  --type-l-line: 32px;
+  --type-m-size: 18px;
+  --type-m-line: 24px;
+  --type-s-size: 14px;
+  --type-s-line: 18px;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  /* One dot size for every pattern swatch — the patterns panel legend and the
+     pattern tags on a violation row must always read as the same mark. */
+  --pattern-dot-size: 12px;
+
+  /* Pill controls (CLEAR, GUIDE) on the Database page. Every column on that page
+     derives from viewport width, so these frames scale too — at a fixed 20px the
+     CLEAR pill is wider than the patterns column at every width the page supports.
+     Floors keep the pill legible and clickable at the 1024px minimum enforced by
+     WidthWarning.jsx; the ceilings preserve today's appearance on large screens.
+     clamp() is a deliberate local departure from this file's breakpoint idiom:
+     both media breakpoints sit below the 1024px floor, so they cannot help here.
+
+     Only the font size is clamped; every other dimension is a multiple of it, so
+     the two pills keep their exact present proportions as they scale, and at the
+     20px ceiling each multiplier reproduces today's hand-set value.
+
+     The size is affine, not a plain vw fraction, because the constraint is: the
+     CLEAR pill must fit the patterns column, whose width is (100vw - 100px)/12 -
+     16px. Solving pill <= column for the font size gives 1.572vw - 5.16px, which
+     reaches the 20px ceiling at exactly 1600px and yields ~11px at the 1024px
+     floor. A plain vw fraction cannot satisfy both ends: any coefficient large
+     enough to reach 20px by 1600px overflows the column at 1024px. */
+  --pill-font-size: clamp(10px, calc(1.572vw - 5.16px), 20px);
+  --pill-line-height: 1.3;
+  --pill-icon-size: calc(var(--pill-font-size) * 0.75);
+
+  /* Pattern colors, assigned by selection order */
+  --pattern-red: #FF3D00;
+  --pattern-orange: #FF8A00;
+  --pattern-yellow: #FFB800;
+  --pattern-inactive: #aaa;
+}
+
+*,
+*::before,
+*::after {
+  /* border-box everywhere so width/height include padding + border — nothing
+     with width:100% + padding overflows its parent, which keeps layouts resilient
+     across phone/tablet sizes. */
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "ABC Diatype Edu",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--black);
+}
+
+/* The page ground, followed all the way down to <body> by PageTransition.jsx. A page
+   paints its own ground, but only over the box it occupies: while a navigation is in
+   flight the incoming page has not laid out yet, and anything the reader can see past it
+   — below a short page, or in an overscroll bounce — is this element. Leaving it black
+   is what made a navigation flash. */
+body[data-ground="light"] {
+  background: var(--grey-shade-1, #f2f2f2);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Never let a stray wide element scroll the whole page sideways on mobile. The
+     viewport takes its overflow from <html>, so this alone is enough — the same rule
+     on <body> was not belt-and-suspenders but harmful: any overflow other than visible
+     turns <body> into a scroll container, and a position:sticky descendant then sticks
+     to a box that never scrolls (it made the report's scroll-scrubbed map figures
+     scroll straight past instead of pinning). */
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  /* Reclaim the desktop side gutters on tablets/phones. --nav-tab-width and
+     --sidebar-column-width derive from this, so they shrink with it; the
+     per-page tickets additionally collapse the sidebar grid to one column. */
+  :root {
+    --page-horizontal-padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+
+  :root {
+    --page-horizontal-padding: 10px;
+  }
+}

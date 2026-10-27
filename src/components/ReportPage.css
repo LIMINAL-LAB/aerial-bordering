@@ -1,0 +1,817 @@
+/* CSS Custom Properties */
+:root {
+  --grey-shade-1: #f2f2f2;
+  /* The same colour as channels, for gradients that need it at partial alpha
+     (.report-figure-fade-scrim). Keep the two in step. */
+  --grey-shade-1-rgb: 242 242 242;
+  --blue-5-liminal: #1140ed;
+  --grey-3: #aaa;
+  --divider-color: #d5d5d5;
+}
+
+.report-page {
+  --toc-indent: 96px;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: calc(var(--topbar-height) + 40px) var(--page-horizontal-padding) 200px var(--page-horizontal-padding);
+  background: var(--grey-shade-1);
+  font-family:
+    "ABC Diatype Edu",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  color: var(--black);
+  position: relative;
+  box-sizing: border-box;
+  opacity: 1;
+  /* Break long unbreakable tokens (URLs, long words) so nothing runs off the
+     right edge; 'anywhere' also lets grid/flex text items shrink to fit. */
+  overflow-wrap: anywhere;
+}
+
+.report-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0 auto;
+}
+
+.report-content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/* Sticky title overlay + .section-title-placeholder base live in
+   StickyTitles.css (shared with the Methodology page). */
+
+/* Table of contents */
+.report-toc {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.report-toc-link {
+  display: flex;
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 4px 0;
+  font-family: inherit;
+  font-size: var(--type-m-size);
+  font-weight: var(--weight-medium);
+  line-height: var(--type-m-line);
+  text-align: left;
+  color: var(--black);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.report-toc-link:hover {
+  color: var(--grey-3);
+}
+
+/* Chapter subsections are indented; the indent sits on the row so the divider
+   steps in with the text. */
+.report-toc-item.level-2 {
+  padding-left: var(--toc-indent);
+}
+
+.report-toc-label {
+  flex: 0 0 var(--toc-indent);
+}
+
+/* Hairline under every contents row, matching the original design. */
+.report-toc-divider {
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  background: var(--divider-color);
+}
+
+/* Section Container */
+.section-container {
+  display: grid;
+  grid-template-columns: var(--sidebar-column-width) 1fr;
+  gap: 0;
+  /* Baseline, not start: the gutter title and the first line of its section sit
+     on one line even when the two columns are set at different sizes. */
+  align-items: baseline;
+}
+
+/* From "Key takeaways" on, a section's title lives only in the sticky overlay —
+   scrolling an inline copy into place read badly against the greyed-out
+   chapters. With no gutter child to hold column 1, the reading column has to
+   claim column 2 itself. */
+.section-container.no-gutter .section-content {
+  grid-column: 2;
+}
+
+.section-content {
+  flex: 1;
+  min-width: 0;
+  max-width: calc(2 * var(--nav-tab-width));
+  /* No top padding — it sits above the first line box and would push the
+     baseline below the gutter title's. */
+  padding: 0 0 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* The abstract reads at the same size as its "Abstract" gutter title. */
+#abstract .section-content p {
+  font-size: var(--type-l-size);
+  line-height: var(--type-l-line);
+  font-weight: var(--weight-regular);
+}
+
+.section-text {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+/* Clickable index items */
+.clickable {
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.clickable:hover {
+  color: var(--grey-3);
+}
+
+.section-content p {
+  max-width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+/* Subsection Styles */
+.subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.subsection-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0 0 var(--toc-indent);
+}
+
+/* Body headings read at the same size and weight as their index entries. */
+.subsection-title {
+  font-size: var(--type-m-size);
+  font-weight: var(--weight-medium);
+  line-height: var(--type-m-line);
+}
+
+.subsection-divider {
+  width: 100%;
+  height: 1.5px;
+  background: var(--divider-color);
+}
+
+/* Chapter title repeated at the top of the text column, with a rule under it.
+   Mirrors .subsection-header but flush left, being the top-level heading. */
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 0 12px 0;
+}
+
+.section-heading-title {
+  font-size: var(--type-m-size);
+  font-weight: var(--weight-medium);
+  line-height: var(--type-m-line);
+}
+
+.section-heading-divider {
+  width: 100%;
+  height: 1.5px;
+  background: var(--divider-color);
+}
+
+.subsection-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 20px;
+  padding-bottom: 0;
+}
+
+.subsection-content p {
+  max-width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+/* Footnote marks are a true superindex: small, bold, and raised by position so
+   the line box never grows — a line carrying footnotes must sit on the same
+   baseline grid as one without. */
+.footnote {
+  font-size: 0.62em;
+  font-weight: var(--weight-bold);
+  vertical-align: baseline;
+  position: relative;
+  top: -0.5em;
+  line-height: 0;
+  background: transparent;
+  color: #ff0000;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* .clickable's 2px vertical padding would re-inflate the line box. */
+.footnote.clickable {
+  padding: 0 1px;
+}
+
+.footnote:hover {
+  color: #cc0000;
+}
+
+/* Image Styles */
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 0;
+}
+
+.report-image {
+  width: 100%;
+  height: auto;
+  max-width: 1220px;
+  object-fit: cover;
+}
+
+.image-caption {
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 40px;
+}
+
+.report-figure {
+  margin: 0;
+}
+
+/* Placeholder shown for figures whose image asset is not yet available. */
+.report-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 240px;
+  background: #e2e2e2;
+  color: var(--grey-3);
+  border: 1px dashed var(--grey-3);
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+.report-figure-label {
+  font-weight: 700;
+  color: #666;
+}
+
+.report-figure-pending {
+  font-size: 13px;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.report-figure-caption-label {
+  font-weight: 700;
+}
+
+/* Scroll-scrubbed crossfade (ReportFigureFade). The pinned block is only as tall as the
+   map and caption it holds — the runway it pins through is an empty sibling box beneath
+   it, not extra height on the block. A full-viewport stage would look centred at one zoom
+   level and like a small map marooned in grey at another, since the map itself stops
+   growing at 1220px: at 50% browser zoom that left ~1000px of dead space inside the
+   figure. JS reads both heights back from the live layout, so retuning --fade-runway
+   alone changes how much scrolling the transition takes. */
+.report-figure-fade {
+  --fade-runway: 70vh;
+  position: relative;
+  width: 100%;
+}
+
+.report-figure-fade-runway {
+  height: calc(var(--fade-runway) * var(--fade-steps, 1));
+}
+
+/* The veil over everything between the pinned figure and the bottom of the viewport: page
+   colour at the bottom edge, clear by the top, so text rising through it fades in. `top`
+   comes from JS (the pinned block's live bottom edge) so it never reaches up over the map
+   or its caption; opacity is the scroll-driven part. It sits under the sticky section
+   titles (90), the PDF pill (200) and the nav (1000) — only body content passes beneath. */
+.report-figure-fade-scrim {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(
+    to top,
+    rgb(var(--grey-shade-1-rgb)) 0%,
+    rgb(var(--grey-shade-1-rgb) / 0.92) 35%,
+    rgb(var(--grey-shade-1-rgb) / 0) 100%
+  );
+}
+
+.report-figure-fade-sticky {
+  position: sticky;
+  /* Matches the document's own top padding, the offset the sticky section titles use. */
+  top: calc(var(--topbar-height, 0px) + 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Keep the whole figure on screen while it is pinned, caption included, however short the
+   viewport: the 16:9 maps only reach this ceiling on a landscape phone. */
+.report-figure-fade-stack {
+  --fade-img-max-height: calc(100vh - var(--topbar-height, 0px) - 120px);
+  display: grid;
+  width: 100%;
+  max-width: 1220px;
+  max-height: var(--fade-img-max-height);
+  min-height: 0;
+}
+
+/* Both states occupy the same cell so the fade has a from- and a to-image to cross;
+   max-height plus `contain` keeps the map whole, at its own aspect ratio, when that
+   ceiling bites. */
+.report-figure-fade-img {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: auto;
+  /* A percentage here resolves against the auto-height grid row, not the stack's
+     max-height, so the image would spill over the caption beneath it. */
+  max-height: var(--fade-img-max-height);
+  object-fit: contain;
+}
+
+/* No runway and no pinning for a reader who has asked for less motion: the figure
+   collapses to its own map, laid out like any other still figure. */
+@media (prefers-reduced-motion: reduce) {
+  .report-figure-fade-runway {
+    height: 0;
+  }
+
+  .report-figure-fade-sticky {
+    position: static;
+  }
+
+  .report-figure-fade-stack {
+    max-height: none;
+  }
+
+  .report-figure-fade-scrim {
+    display: none;
+  }
+}
+
+/* Horizontal crossfade carousel for multi-image figures (e.g. per-asset photos). Every
+   slide is rendered at once, stacked via grid-area, and layered with opacity so the
+   fade has both a from- and to-image; only the active slide is interactive. */
+.report-carousel {
+  display: grid;
+  width: 100%;
+  max-width: 1220px;
+  position: relative;
+}
+
+.report-carousel-slide {
+  grid-area: 1 / 1;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 320ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .report-carousel-slide {
+    transition: none;
+  }
+}
+
+.report-carousel-slide-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.report-carousel-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.report-carousel-caption {
+  margin: 4px 0 0;
+  color: var(--grey-3, #999);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.report-carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--white);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.report-carousel-arrow-prev {
+  left: 12px;
+}
+
+.report-carousel-arrow-next {
+  right: 12px;
+}
+
+.report-carousel-dots {
+  grid-area: 2 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.report-carousel-dot {
+  width: var(--pattern-dot-size, 12px);
+  height: var(--pattern-dot-size, 12px);
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: var(--grey-2);
+  cursor: pointer;
+}
+
+.report-carousel-dot-active {
+  background: var(--black);
+}
+
+.report-carousel-count {
+  margin-left: 4px;
+  color: var(--grey-3, #999);
+  font-size: 13px;
+}
+
+/* Inline hyperlinks within report prose. */
+.report-inline-link {
+  color: var(--blue-5-liminal, #1140ed);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+}
+
+/* Standalone "See all cases ... in the database" link, lifted out of its paragraph. */
+.report-database-link {
+  display: block;
+  padding-left: 40px;
+  font-size: var(--type-m-size);
+  font-weight: var(--weight-medium);
+  line-height: var(--type-m-line);
+  color: var(--pattern-red);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+}
+
+/* Bold/italic runs within report prose (e.g. case counts, vessel names). */
+.report-content strong {
+  font-weight: 700;
+}
+
+.report-content em {
+  font-style: italic;
+}
+
+/* Ordered/unordered lists within report prose. */
+/* Report prose (paragraphs, list items, footnotes) is set justified, with the
+   browser's own hyphenation (language from <html lang="en">) so narrow columns
+   don't open wide gaps. The last line stays ragged. */
+.justify-text {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.report-list {
+  margin: 0 0 16px;
+  padding-left: 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.report-list li {
+  margin-bottom: 8px;
+}
+
+/* Notes Section */
+.notes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.note-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.note-number {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  flex-shrink: 0;
+}
+
+.note-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  text-align: left;
+  text-align-last: left;
+}
+
+/* Return link styling */
+.return-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  color: var(--black);
+  background: transparent;
+  padding: 2px 4px;
+  border-radius: 2px;
+  transition: color 0.2s ease;
+  vertical-align: middle;
+}
+
+.return-link:hover {
+  color: #666;
+}
+
+.return-link svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* PDF Download Button — small pill pinned to the bottom-right, matching the database
+   page's GUIDE pill offsets so the two sit in the same corner at the same height.
+   Every box metric is the same declaration .guide-toggle-button uses (GuidePanel.css),
+   so the two pills are the same size at every viewport width; only the label makes
+   them differ in width. */
+.pdf-download {
+  position: fixed;
+  bottom: 40px;
+  right: var(--page-horizontal-padding);
+  display: flex;
+  align-items: center;
+  gap: calc(var(--pill-font-size) * 0.4);
+  padding: calc(var(--pill-font-size) * 0.4) calc(var(--pill-font-size) * 1);
+  border-radius: 999px;
+  background: var(--grey-3);
+  color: var(--white);
+  font-size: var(--pill-font-size);
+  font-weight: 400;
+  line-height: var(--pill-line-height);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  z-index: 200;
+}
+
+.pdf-download:hover {
+  background: var(--Yellow);
+  color: var(--black);
+}
+
+/* The glyph is 14x17, so at 0.75em wide it stands 0.911em tall — inside the 1.3
+   line box, and therefore no taller than the iconless GUIDE pill. */
+.pdf-download svg {
+  flex-shrink: 0;
+  width: var(--pill-icon-size);
+  height: auto;
+}
+
+.pdf-download:hover svg path {
+  fill: var(--black);
+  stroke: var(--black);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .sticky-titles-overlay {
+    width: 150px;
+  }
+
+  .section-container {
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+  }
+
+  /* The gutter is a fixed 150px here, so the desktop cap (two of the four nav
+     columns) no longer matches the grid: it ends the reading column well short
+     of the content edge and leaves the text reading as centre-left. Let it fill
+     the column it is given. */
+  .section-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .report-page {
+    /* Track --topbar-height so the taller stacked mobile nav is cleared. */
+    padding: calc(var(--topbar-height) + 40px) 15px 100px 15px;
+  }
+
+  .sticky-titles-overlay {
+    display: none;
+  }
+
+  .section-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* One column here, so claiming column 2 would open an implicit second one. */
+  .section-container.no-gutter .section-content {
+    grid-column: auto;
+  }
+
+  .section-title-placeholder {
+    font-size: 20px;
+    background: transparent;
+    padding: 0;
+  }
+
+  .section-text {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .report-toc-link,
+  .subsection-title,
+  .report-database-link,
+  .section-heading-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /* Narrow columns can't spare the desktop indent — both index levels drop to
+     the same step the body's .subsection-header takes below. */
+  .report-page {
+    --toc-indent: 20px;
+  }
+
+  /* No room for a label column: the label sits inline before its title. */
+  .report-toc-label {
+    flex: 0 0 auto;
+    margin-right: 0.5em;
+  }
+
+  .section-content p,
+  .subsection-content p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  /* The id selector outranks the rule above, so the abstract needs its own
+     narrow-screen step down or it would stay at the desktop 26px. */
+  #abstract .section-content p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .report-database-link {
+    padding-left: 20px;
+  }
+
+  .image-caption {
+    padding-left: 20px;
+  }
+
+  /* Without this the desktop cap (~2 nav columns, ~177px at 375px) squeezes the
+     whole reading column to a sliver once the grid has collapsed to one column.
+     Also drop the 10px left gutter (for the desktop sidebar) so the collapsed
+     column has even left/right padding. */
+  .section-content {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  /* 100px between sections wastes most of a phone screen. */
+  .report-container,
+  .report-content {
+    gap: 48px;
+  }
+
+  .note-item {
+    gap: 12px;
+  }
+
+  /* The sticky overlay is hidden on mobile, so keep the inline section headings
+     visible even when StickyTitles toggles .invisible on a scrolled-past section. */
+  .report-page .invisible .section-title-placeholder {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 480px) {
+  .report-page {
+    padding: calc(var(--topbar-height) + 40px) 10px 80px 10px;
+  }
+
+  .section-title-placeholder {
+    font-size: 15px;
+    padding: 3px 5px;
+  }
+
+  .section-text {
+    font-size: 16px;
+  }
+
+  .section-content p,
+  .subsection-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .report-page {
+    --toc-indent: 15px;
+  }
+
+  .report-database-link {
+    padding-left: 15px;
+  }
+
+  .image-caption {
+    padding-left: 15px;
+  }
+
+  .report-container,
+  .report-content {
+    gap: 32px;
+  }
+}

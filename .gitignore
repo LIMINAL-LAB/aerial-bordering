@@ -1,0 +1,10 @@
+.config/
+node_modules/
+build/
+design/
+.env
+.beads/
+.abacus/
+.direnv/
+__pycache__/
+.claude/settings.local.json

@@ -1,0 +1,581 @@
+[
+  {
+    "id": "2020-01-30",
+    "date": "2020-01-30",
+    "joraId": null,
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "On 30 January, the civilian monitoring aircraft Moonbird, operated by the NGO Sea-Watch, observed the Polish aircraft Pirate, deployed under the European military operation EUNAVFOR MED, monitoring a migrants’ boat in distress. The people on board were eventually intercepted in the Maltese Search and Rescue Zone by the Libyan Coast Guard. Due to limited availability of flight-tracking data, this is one of the rare cases in which the role of EUNAVFOR MED’s aerial surveillance activities can be documented with precision.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-annual_report_2020?srsltid=AYCX9vLBm3Bb1vrQjIdiGHNErz07Cx7vgcP50Wkwfls71fRruIsnwzN3"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2020-01-30/Airborne-Annual-Report-2020_30_01.jpeg",
+        "caption": "Photo: Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2020-03-14",
+    "date": "2020-03-14",
+    "joraId": "99329",
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "A group of 49 people onboard a boat drifting in the Maltese Search and Rescue (SAR) Zone contacted the non-governmental emergency hotline Alarm Phone to urgently request assistance. The testimonies of the passengers reveal that they saw a helicopter circling above them. Alarm Phone attempted to reach Maltese authorities by email and phone to alert them about the case and ask for their assistance, but, as it is often the case, the Maltese Rescue and Coordination Centre did not respond to any of their calls. Only hours later, the Maltese Centre informed Alarm Phone that they had searched for the boat but to no avail. In the meanwhile, approximately one hour after the passengers reported being monitored by the helicopter, they were pushed back by the Libyan Coast Guard. Due to the limited availability of flight tracking data at that time, it is not possible to identify the helicopter.",
+    "links": [
+      {
+        "label": "1238850047758008320 post",
+        "url": "https://x.com/alarm_phone/status/1238850047758008320"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2020-03-14/2020-03-14.png",
+        "caption": "Map: Last known position of drifting boat in Maltese SAR Zone"
+      }
+    ]
+  },
+  {
+    "id": "2020-06-25",
+    "date": "2020-06-25",
+    "joraId": "118283",
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "Frontex aircraft, carrying the unique aircraft identifier—known as a Hex code—43ED4B, circled in the Central Mediterranean in the early morning of 25 June 2020. Later that day, the civilian monitoring aircraft Moonbird, operated by the NGO Sea-Watch, was flying in the same area and overheard radio communications between the Maltese Armed Forces and their plane Mission27 concerning a migrant boat, including its exact position. Moonbird subsequently flew to the area and informed the NGO ships Mare Jonio and Ocean Viking about the ship in distress. The Mare Jonio then set course to rescue the people, but the Libyan Coast Guard had reached the boat before the NGO vessel could get there and forcibly returned the passengers back to Libya.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/wp-content/uploads/2020/07/2006-sea_watch_airborne-factsheet.pdf"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2020-06-25/2020-06-25.png",
+        "caption": "Map: Flight tracks of Frontex assets 43ED4B and 4D2355, active on 2020-06-25"
+      }
+    ]
+  },
+  {
+    "id": "2020-07-14",
+    "date": "2020-07-14",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "On 14 July 2020, the crew of Sea-Watch’s monitoring aircraft Moonbird was operating in the Central Mediterranean when they overheard radio communications between an aircraft and the nearby Libyan Coast Guard (LYCG) patrol boat Ras Jadir, in which the Ras Jadir was instructed to “go north” and to “turn 360 [degrees]”. In a subsequent communication, an unidentified aircraft requested the LYCG to proceed a further “7 miles” to the north, instructing them to “follow” and to “go”. The Libyan patrol boat later asked, “are you with me?” to which the aircraft responded, “I’ll stay with you, no problem!”.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-annual_report_2020?srsltid=AYCX9vLBm3Bb1vrQjIdiGHNErz07Cx7vgcP50Wkwfls71fRruIsnwzN3"
+      }
+    ]
+  },
+  {
+    "id": "2020-08-28",
+    "date": "2020-08-28",
+    "joraId": null,
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "On 28 August 2020, civilian monitoring aircraft Moonbird spotted a migrants’ boat in distress. On the same day, a Frontex aircraft was orbiting above a location in the Maltese Search and Rescue Zone. The crew of Moonbird identified a Libyan Coast Guard (LYCG) vessel heading towards the case and subsequently witnessed the passengers being pushed back. The crew of the Moonbird repeatedly informed the LYCG of the illegality of their actions but were ignored.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-annual_report_2020?srsltid=AYCX9vICnMrjOdOt6mtqHqy3yrQMSFkXy1Me9YntK4VXgCnNGHLXzxn-"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2020-08-28/2020-08-28.png",
+        "caption": "Map: Ruptured flight tracks of Frontex asset 4D2355, active on 2020-08-28"
+      },
+      {
+        "type": "image",
+        "url": "/pattern-media/2020-08-28/Airborne-Annual-Report-2020_28_08.jpeg",
+        "caption": "Photo: Hannah Nickel / Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2021-05-18",
+    "date": "2021-05-18",
+    "joraId": "609767",
+    "patterns": [
+      "selective-comms",
+      "mt-sar"
+    ],
+    "infoText": "The non-governmental emergency hotline Alarm Phone was alerted to a wooden boat carrying 88 people, which was unable to move and at risk of capsizing in the Maltese Search and Rescue (SAR) Zone. Alarm Phone informed the authorities and nearby merchant vessels. Aerial tracking data shows that the Frontex aircraft carrying the unique aircraft identifier—known as a Hex code—40785B spotted the boat during its patrol and orbited around its position several times before continuing south. The aircraft returned to the same location after an hour, then flew south again before returning to the boat’s position briefly for a third time, ultimately heading back to Malta’s Luqa Airport. Later, a freedom of information request revealed that direct WhatsApp communications between Frontex and the Libyan Coast Guard took place on that day. The content of the messages was redacted as “sensitive operational information”.",
+    "links": [
+      {
+        "label": "1394527904399306759 post",
+        "url": "https://x.com/alarm_phone/status/1394527904399306759"
+      },
+      {
+        "label": "FragDenStaat FOI request",
+        "url": "https://fragdenstaat.de/anfrage/whatsapp-nachrichten-an-die-libysche-kustenwache/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2021-05-18/2021-05-18.png",
+        "caption": "Map: Flight tracks of Frontex asset 40785B, active on 2021-05-18"
+      }
+    ]
+  },
+  {
+    "id": "2021-05-26",
+    "date": "2021-05-26",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "Direct WhatsApp communication between Frontex operatives and the Libyan Coast Guard was recorded to have taken place on this date. At least one audio message was sent at 06:33 UTC.",
+    "links": [
+      {
+        "label": "FragDenStaat FOI request",
+        "url": "https://fragdenstaat.de/anfrage/whatsapp-nachrichten-an-die-libysche-kustenwache/"
+      }
+    ]
+  },
+  {
+    "id": "2021-05-27",
+    "date": "2021-05-27",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "Flight tracking data shows that a Frontex aircraft carrying the unique aircraft identifier—known as a Hex code—407637 departed from Malta on 27 May 2021 for two missions off the Libyan coast. On this day, three pushbacks were recorded in the Frontex JORA database. A freedom of information request reveals that close communication took place between Frontex personnel and the Libyan Coast Guard (LYCG) via WhatsApp. Although many parts of this exchange were redacted, what we know is that the LYCG transmitted six audio calls between 2 and 10am. At around 10am Frontex employees sent a text stating \"Dear sir, we have four sightings:\", but the remainder of the message was redacted as \"sensitive operational information\". These records demonstrate the operational proximity between Frontex and the LYCG: the LYCG regularly shared their position, requested updates and sent audio messages to Frontex employees, while Frontex shared the positions of detected boats.",
+    "links": [
+      {
+        "label": "FragDenStaat FOI request",
+        "url": "https://fragdenstaat.de/anfrage/whatsapp-nachrichten-an-die-libysche-kustenwache/"
+      }
+    ]
+  },
+  {
+    "id": "2021-05-28",
+    "date": "2021-05-28",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "On this date, direct WhatsApp communication between Frontex and the Libyan Coast Guard was documented. The heavily redacted message logs, obtained through freedom of information requests, include a message from a Libyan number stating, “if you have any information, contact me.”",
+    "links": [
+      {
+        "label": "FragDenStaat FOI request",
+        "url": "https://fragdenstaat.de/anfrage/whatsapp-nachrichten-an-die-libysche-kustenwache/"
+      }
+    ]
+  },
+  {
+    "id": "2021-05-30",
+    "date": "2021-05-30",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "On this date, direct WhatsApp communication between Frontex and the Libyan Coast Guard was documented. The heavily redacted message logs, obtained through freedom of information requests, include messages from a Libyan number saying, “good morning,” and asking, “do you have anything about immigrants who need help?”",
+    "links": [
+      {
+        "label": "FragDenStaat FOI request",
+        "url": "https://fragdenstaat.de/anfrage/whatsapp-nachrichten-an-die-libysche-kustenwache/"
+      }
+    ]
+  },
+  {
+    "id": "2021-06-10",
+    "date": "2021-06-10",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "On this date, direct WhatsApp communication between Frontex and the Libyan Coast Guard was documented.",
+    "links": [
+      {
+        "label": "FragDenStaat FOI request",
+        "url": "https://fragdenstaat.de/anfrage/whatsapp-nachrichten-an-die-libysche-kustenwache/"
+      }
+    ]
+  },
+  {
+    "id": "2021-06-13",
+    "date": "2021-06-13",
+    "joraId": null,
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "The non-governmental emergency hotline Alarm Phone was contacted by people in distress in the Maltese Search and Rescue Zone and immediately alerted the authorities, requesting their intervention. The ground crew of the civilian monitoring NGO aircraft Seabird observed a Frontex drone orbiting over the reported location of the vessel. Approximately 20 minutes later, Seabird’s crew spotted the boat and witnessed its passengers being intercepted by the Libyan Coast Guard. The passengers were eventually pushed back to Libya.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2021-06-13/Screenshot 2026-10-26 at 23.04.20.png",
+        "caption": "Photo: Kai von Kotze/Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2021-06-15",
+    "date": "2021-06-15",
+    "joraId": "632635",
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "Flight tracks reveal that a Frontex drone, carrying the unique aircraft identifier—known as a Hex code—4D232D, was orbiting in the Central Mediterranean around midday. NGO Sea-Watch’s aircrew operating in the same area overheard the position of a migrants’ boat being forwarded to the Libyan Coast Guard patrol boat Ubari and subsequently witnessed the passengers’ pushback."
+  },
+  {
+    "id": "2021-07-30",
+    "date": "2021-07-30",
+    "joraId": "687197",
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "On 30 July 2021, flight tracks indicate that a Frontex drone in operation in the Central Mediterranean, carrying the unique aircraft identifier—known as a Hex code—4D232D repeatedly deviated from its standard flight pattern, indicating it was likely monitoring a migrant boat. The civilian aircraft Seabird, as well as the NGO rescue ship Sea-Watch 3, who were present in the area, witnessed a pushback carried out by the Libyan Coast Guard. Footage recorded from Seabird shows the Libyan Coast Guard vessel Ras Jadir pursuing a small wooden boat as it attempted to flee, before being intercepted. None of the NGO rescue ships operating in the area that day received any distress alerts from Frontex or coastal authorities regarding the boat. Tracking data further shows that the oil tankers Superba and Inviken, as well as the supply ship Belize, were nearby but did not intervene.",
+    "links": [
+      {
+        "label": "Hrw",
+        "url": "https://www.hrw.org/video-photos/interactive/2022/12/08/airborne-complicity-frontex-aerial-surveillance-enables-abuse"
+      }
+    ]
+  },
+  {
+    "id": "2021-09-15",
+    "date": "2021-09-15",
+    "joraId": null,
+    "patterns": [
+      "selective-comms",
+      "violence"
+    ],
+    "infoText": "On 15 September 2021 at 07:45 UTC, the Frontex Heron drone, carrying the unique aircraft identifier—known as a Hex code—4D232D, spotted an overcrowded boat with 50 people onboard and issued a sighting report to the Italian, Maltese, Libyan and Tunisian Coast Guards. Three hours later the Libyan Coast Guard (LYCG) violently intercepted the passengers. A Frontex Serious Incident Report, obtained via a Freedom of Information request, revealed that the boat was chased by the LYCG for 35-45 minutes. During the pursuit, the LYCG violently and dangerously attempted to stop the boat, including deploying a water hose against the people on board, and engaging in high-risk driving manoeuvres. The report also mentions an individual on the Libyan patrol vessel holding \"an item shaped like a pistol\" shooting at the people on board. At 10:04 UTC the LYCG stopped the boat and forced the passengers to board their vessel. An official Frontex email sent to the Libyan authorities later stated: \"We highly recommend/suggest to NOT use force during Search and Rescue Operations\".",
+    "media": [
+      {
+        "type": "pdf",
+        "url": "/pattern-media/2021-09-15/SIR 15-09-2021.pdf",
+        "caption": "Download SIR 13489/2021 here"
+      }
+    ]
+  },
+  {
+    "id": "2021-11-24",
+    "date": "2021-11-24",
+    "joraId": "815906",
+    "patterns": [
+      "violence"
+    ],
+    "infoText": "On 24 November 2021, the Frontex Heron drone carrying the unique aircraft identifier—known as a Hex code—4D232D detected a migrant boat at 06:00 UTC in the Libyan SAR Zone. A Frontex’s Serious Incident Report obtained through a Freedom of Information request states that Frontex informed the \"competent MRCCs [Maritime Rescue Coordination Centres] of the sighting\". The agency documented the appearance of a Libyan Coast Guard (LYCG) vessel, while the boat was heading further north in the Libyan SAR and documented as well, that it was still chasing after the boat when they both entered the Maltese SAR. The non-governmental emergency hotline Alarm Phone was contacted by the passengers of the boat that was being chased by the LYCG. Stating that the LYCG were shooting at the boat as it headed north trying to escape. Frontex’s Serious Incident Report stated that at the time Alarm Phone reported the \"allegations\" that the Libyan Coast Guard was shooting at people, the drone was monitoring \"another migrant boat in a different sector\".",
+    "links": [
+      {
+        "label": "1463922843461292038 post",
+        "url": "https://x.com/alarm_phone/status/1463922843461292038"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2021-11-24/2021-11-24.png",
+        "caption": "Map: Flight tracks of Frontex drone 4D232D, active on 2021-11-24"
+      },
+      {
+        "type": "pdf",
+        "url": "/pattern-media/2021-11-24/SIR 24-11-2021.pdf",
+        "caption": "Download SIR 14577/2021 here"
+      }
+    ]
+  },
+  {
+    "id": "2022-01-19",
+    "date": "2022-01-19",
+    "joraId": "863851",
+    "patterns": [
+      "violence"
+    ],
+    "infoText": "On 19 January 2022, non-governmental emergency hotline Alarm Phone was alerted to the presence of a rubber boat that had departed from Zawiyah, Libya. The NGO vessel Louise Michel was two hours away and headed to rescue the people on board. Upon arrival, the crew of the Louise Michel witnessed the Libyan Coast Guard intercepting the boat and shooting at one of the passengers who had jumped into the water in the attempt to flee.",
+    "links": [
+      {
+        "label": "1483861110470107140 post",
+        "url": "https://x.com/MVLouiseMichel/status/1483861110470107140"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2022-01-19/2022-01-19.png",
+        "caption": "Map: Flight tracks of Frontex assets 40785B and 4D2376, active on 2022-01-19"
+      },
+      {
+        "type": "image",
+        "url": "/pattern-media/2022-01-19/2022-01-19.jpeg",
+        "caption": "Photo: Louise Michel"
+      }
+    ]
+  },
+  {
+    "id": "2022-02-06",
+    "date": "2022-02-06",
+    "joraId": null,
+    "patterns": [
+      "violence"
+    ],
+    "infoText": "Frontex’s Serious Incident Report, obtained through a freedom of information request, reveals that on 6 February 2022, the Frontex Heron drone, carrying the unique aircraft identifier—known as a Hex code—4D232D detected in the Tunisian Search and Rescue Zone a boat carrying 50 people and heading north. The detection occurred at 05:50 UTC, and Frontex notified the Tunisian and Libyan Maritime Rescue Coordination Centres at 06:39 UTC. The drone continued its surveillance flight, while another Frontex aerial asset monitored the subsequent pushback operated by the Libyan Coast Guard (LYCG). The report states that the aircraft was there to \"monitor the rescue\" and that the migrants’ boat was \"refusing to stop”. Frontex personnel, observing remotely from Warsaw, witnessed individuals being brought onto the LYCG vessel, during which some people were slapped, kicked, and struck on the head. The Serious Incident Report does not indicate that at the time Frontex intervened with the LYCG to stop the violence."
+  },
+  {
+    "id": "2022-02-19",
+    "date": "2022-02-19",
+    "joraId": "892443",
+    "patterns": [
+      "violence"
+    ],
+    "infoText": "The non-governmental emergency hotline Alarm Phone was alerted about a boat in distress in the Maltese SAR Zone with 68 people on board. Flight tracks reveal a Frontex aircraft carrying the unique aircraft identifier—known as a Hex code—43ED4B was in close proximity to the case. The case is probably documented also in the JORA database, which on that day reports a case involving a boat with 70 migrants on board. The NGO Pilotes Volontaires documented the ensuing pushback with their monitoring aircraft, describing the operation as extremely dangerous. For over an hour, those on board desperately tried to escape the Libyan Coast Guard (LYCG), while the latter resorted to a series of hazardous manoeuvres to stop the migrants, including throwing ropes into their boat's propeller to bring it to a stop and deploying a small inflatable to board it, eventually causing five people to fall overboard. Fortunately, in this case all were retrieved.",
+    "links": [
+      {
+        "label": "1495325593948377088 post",
+        "url": "https://x.com/PVolontaires/status/1495325593948377088"
+      },
+      {
+        "label": "1495164274527850500 post",
+        "url": "https://x.com/alarm_phone/status/1495164274527850500"
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "url": "/pattern-media/2022-02-19/2022-02-19.mp4",
+        "caption": "Video: Pilotes Volontaires"
+      }
+    ]
+  },
+  {
+    "id": "2022-06-18",
+    "date": "2022-06-18",
+    "joraId": null,
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "The civilian monitoring civilian aircraft Seabird spotted a fiberglass boat carrying 14 people being pushed back from within the Maltese Search and Rescue Zone. The crew of the Seabird reported that before and during the pushback a Frontex aircraft was present at the scene. Flight tracks reveal the aircraft carrying the unique aircraft identifier—known as a Hex code—4D2355."
+  },
+  {
+    "id": "2022-06-30",
+    "date": "2022-06-30",
+    "joraId": "1082461",
+    "patterns": [
+      "selective-comms",
+      "mt-sar"
+    ],
+    "infoText": "Flight tracking shows a Frontex drone flying in circles several times in the early in the morning of 30 June 2022. The civilian monitoring aircraft Seabird inspected the area further north and witnessed a pushback conducted by the Libyan Coast Guard (LYCG) around midday. During the pushback, the LYCG deployed a rigid inflatable boat and dangerously drove it in highspeed circles around the migrant boat. The LYCG were then seen burning the intercepted boat. On that day, the NGO rescue vessel Ocean Viking as well as merchant vessels were also operating in the area but neither were ever informed about the presence of the people in distress.",
+    "links": [
+      {
+        "label": "1542791493961801728  post",
+        "url": "https://x.com/seawatch_intl/status/1542791493961801728"
+      },
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-annual-report-2022?srsltid=AU7gw4WkRi1cFMl8BpjWvucP2Dc3INEaxeUQ4uPUofl04YdOof2KzV2R"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2022-06-30/2022-06-30.jpeg",
+        "caption": "Photo: David Lohmüller/Sea-Watch"
+      },
+      {
+        "type": "image",
+        "url": "/pattern-media/2022-06-30/2022-06-30_1.jpeg",
+        "caption": "Photo: David Lohmüller/Sea-Watch"
+      },
+      {
+        "type": "image",
+        "url": "/pattern-media/2022-06-30/2022-06-30_2.jpeg",
+        "caption": "Photo: David Lohmüller/Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2022-07-26",
+    "date": "2022-07-26",
+    "joraId": "1138019",
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "The Libyan Coast Guard pushed a wooden boat back from within the Maltese Search and Rescue Zone. Flight tracking indicates Frontex aircraft carrying the unique aircraft identifier—known as a Hex code—4D2355 was operating in the area that day. JORA documentation shows that Frontex Multipurpose Aerial Surveillance spotted at least three cases that day.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-monthly-factsheet-july-2022?srsltid=AYCX9vJFDpvXNRQ6Myf2h3dwEN7fsSCVrQ9oLJDwS6y-5zCGK4uALM1R"
+      }
+    ]
+  },
+  {
+    "id": "2022-09-13",
+    "date": "2022-09-13",
+    "joraId": null,
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "A boat carrying 85 people contacted the non-governmental emergency hotline Alarm Phone, which relayed its position (in the Maltese Search and Rescue Zone) to the authorities, asking them to intervene. Flight tracking data shows a Frontex aircraft carrying the unique aircraft identifier—known as a Hex code—4D2355 orbiting above the location. Alarm Phone remained in contact with the people on board, who also reported that an airplane passed over them several times. Alarm Phone then lost contact with the passengers. When the NGO rescue ship Open Arms eventually arrived on the scene, it found just anempty boat, its passengers likely pushed back by the Libyan Coast Guard.",
+    "links": [
+      {
+        "label": "1569670902341591043  post",
+        "url": "https://x.com/alarm_phone/status/1569670902341591043"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2022-09-13/2022-09-13.png",
+        "caption": "Map: Flight tracks of Frontex asset 4D2355, active on 2022-09-13"
+      }
+    ]
+  },
+  {
+    "id": "2023-06-08",
+    "date": "2023-06-08",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "In the early morning the Frontex Heron drone carrying the unique aircraft identifier—known as a Hex code—4D232D was on scene of a boat in distress in the Libyan SAR Zone. Médecins Sans Frontières’ ship Geo Barents was 34 nautical miles away and headed toward the boat. However, Frontex did not inform the vessel about the distress case– the Geo Barents only learned of it when the civilian monitoring aircraft Seabird arrived on scene and communicated the location. The Libyan Coast Guard (LYCG), presumably alerted by Frontex, reached the boat before the Geo Barents, Seabird witnessed how the LYCG chased it and carried out the pushback.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-annual-report-2023/"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2023-06-08/Airborne-Annual-Report-2023_Sea-Watch_08_06_23.jpeg",
+        "caption": "Photo: Sasha Milonova / Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2023-07-26",
+    "date": "2023-07-26",
+    "joraId": null,
+    "patterns": [
+      "mt-sar"
+    ],
+    "infoText": "After observing a Frontex aircraft carrying the unique aircraft identifier—known as a Hex code—4D2355 flying in circles, the civilian monitoring aircraft Seabird identified a large fishing vessel critically overcrowded with approximately 300 people in the Maltese Search and Rescue (SAR) Zone. Upon arriving on scene, the crew saw a vessel approaching, later identified as a ship belonging to the Tariq Ben Zeyad (TBZ) militia based in eastern Libya. The TBZ is an armed militia. Over the course of 2023, Sea-Watch encountered this TBZ-affiliated vessel on multiple occasions and has documented its involvement in illegal pushbacks to Libya. According to a Libyan government employee in Benghazi who spoke by phone with Sea-Watch’s ground crew, the TBZ had received the distress position earlier that morning from the Frontex aircraft Osprey and later obtained authorisation from Maltese authorities to intercept the boat in the Maltese SAR Zone.",
+    "links": [
+      {
+        "label": "1684200208756883460  post",
+        "url": "https://x.com/seawatch_intl/status/1684200208756883460"
+      },
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/en/airborne-annual-report-2023?srsltid=AU7gw4UB3LlI3Nu0CFm0dtouMgKJCafhTj8exyHb0_fpnKiOGDz7iou1"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2023-07-26/2023-07-26.jpeg",
+        "caption": "Photo: Chiara Wettmann/Sea-Watch"
+      },
+      {
+        "type": "image",
+        "url": "/pattern-media/2023-07-26/Airborne-Annual-Report-2023_Sea-Watch_26.07.23.jpeg",
+        "caption": "Photo: Chiara Wettmann/Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2023-08-18",
+    "date": "2023-08-18",
+    "joraId": null,
+    "patterns": [
+      "violence",
+      "mt-sar"
+    ],
+    "infoText": "A migrant boat that had been travelling for five days contacted the non-governmental emergency hotline Alarm Phone and reported that an unknown vessel (later found to belong to the Tariq Ben Zeyad militia) had fired at them and damaged one of their engines, injuring one person. The boat, which was located within the Maltese Search and Rescue (SAR) Zone, tried to flee towards the Greek mainland but it was violently pushed back after entering the Greek SAR Zone. Alarm Phone informed all the authorities of the incident, including the Greek authorities. The boat itself had also contacted the authorities but received no assistance. The Frontex Heron drone, identified through flight tracking websites, observed the scene from the air. All people on board were ultimately brought to Libya and detained in a prison near Benghazi.",
+    "links": [
+      {
+        "label": "1692531350354407697  post",
+        "url": "https://x.com/alarm_phone/status/1692531350354407697"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2023-08-18/2023-08-18.png",
+        "caption": "Map: Flight tracks of Frontex assets 4D2355, 4079F3, 4D232D, and 43EED2, active on 2023-08-18"
+      }
+    ]
+  },
+  {
+    "id": "2024-02-24",
+    "date": "2024-02-24",
+    "joraId": null,
+    "patterns": [
+      "selective-comms"
+    ],
+    "infoText": "The NGO ship Sea-Watch 5 overheard a Mayday relay about a boat in distress and informed the authorities as well as the civilian aircraft Seabird 2. A Frontex aircraft was on scene, orbiting around the location. Only half an hour later, Seabird overheard the Frontex aircraft calling the Libyan Coast Guard on radio Channel 16.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/wp-content/uploads/2025/07/Airborne-Annual-Report-2024.pdf"
+      }
+    ]
+  },
+  {
+    "id": "2024-09-21",
+    "date": "2024-09-21",
+    "joraId": null,
+    "patterns": [
+      "violence"
+    ],
+    "infoText": "Civilian aircraft Seabird 2 witnessed an interception in the Maltese Search and Rescue (SAR) Zone by the Libyan patrol boats Murzuq and Gharyan. Both vessels were later seen chasing a second boat in distress inside the Libyan SAR Zone, close to the boundary with Malta’s SAR Zone. The crew also spotted a Frontex aircraft on scene. Seabird 2 remained on scene and documented officers aboard the Murzuq firing shots at the distressed boat before forcing people on their ship and bringing them back to Libya.",
+    "links": [
+      {
+        "label": "1 post",
+        "url": "https://x.com/seawatch_intl/status/1838267250861563998/photo/1"
+      },
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/wp-content/uploads/2025/07/Airborne-Annual-Report-2024.pdf"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2024-09-21/240921_VictorLuengoDelAlma_IMG_0078.jpg",
+        "caption": "Photo: Sea-Watch"
+      }
+    ]
+  },
+  {
+    "id": "2024-11-12",
+    "date": "2024-11-12",
+    "joraId": null,
+    "patterns": [
+      "selective-comms",
+      "mt-sar"
+    ],
+    "infoText": "On the morning of 12 November 2024, Frontex aircraft Osprey 2, carrying the unique aircraft identifier—known as a Hex code—4D2444, began its surveillance flight at 05:24 UTC. During the flight, it orbited on two distinct occasions, the second time at 08:32 UTC over an area in the Maltese Search and Rescue (SAR) Zone. At that time, the aircraft circled three times before flying further south. Its flight track stops at 08:46 UTC. Non-governmental emergency hotline Alarm Phone was meanwhile contacted by a vessel carrying 23 people in distress within the Maltese SAR Zone. The boat’s engine had failed. Alarm Phone notified both the authorities and rescue NGOs about the boat in distress and its location. The NGO vessel Life Support immediately set course toward the reported location. The crew of civilian monitoring aircraft Seabird 2 noticed Frontex’s Osprey 2 returning to Lampedusa and radioed to ask whether it had spotted the boat in distress. After a delay, Frontex provided the coordinates of the adrift vessel. Seabird 2 promptly redirected to the position, only to witness the Libyan Coast Guard intercepting the people within the Maltese SAR Zone. Although Frontex' surveillance aircraft had spotted the case in the early morning, Frontex did not alert the nearby NGO ships Life Support and Nadir and only shared the information about the boat in distress with Seabird 2 after it was explicitly requested to.",
+    "links": [
+      {
+        "label": "Sea-Watch Airborne report",
+        "url": "https://sea-watch.org/wp-content/uploads/2025/07/Airborne-Annual-Report-2024.pdf"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/pattern-media/2024-11-12/2024-11-12.png",
+        "caption": "Map: Flight tracks of Frontex asset 4D2444, active on 2024-11-12"
+      }
+    ]
+  }
+]

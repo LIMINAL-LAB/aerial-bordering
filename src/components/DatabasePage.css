@@ -1,0 +1,62 @@
+/* CSS Custom Properties */
+:root {
+  --grey-shade-1: #f2f2f2;
+  --red-liminal: #FF3D00;
+  --blue-5-liminal: #1140ed;
+  --blue-6-liminal: #0B2EA5;
+  --grey-3: #aaa;
+  --divider-color: #d5d5d5;
+  --table-row-height: 40px;
+
+  /* Three-layer grid system */
+  --outer-column-gap: 16px;
+  --cell-horizontal-padding: 12px;
+}
+
+.database-page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: calc(var(--topbar-height) + 40px) 0 0 var(--logo-button-width);
+  background: var(--grey-shade-1);
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--black);
+  position: relative;
+  box-sizing: border-box;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.database-container {
+  display: grid;
+  grid-template-columns: repeat(12, var(--nav-subcolumn-width));
+  column-gap: 0;
+  width: 100%;
+  background: transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.patterns-column {
+  grid-column: 1;
+  height: 100%;
+  overflow: hidden;
+  padding-right: var(--outer-column-gap);
+}
+
+.timeline-column {
+  grid-column: 2;
+  height: 100%;
+  overflow: hidden;
+  padding-right: var(--outer-column-gap);
+}
+
+.tables-section {
+  grid-column: 3 / 14;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+

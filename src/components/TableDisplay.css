@@ -1,0 +1,678 @@
+/* External scrollbar for main data body */
+/* A row reserves two transparent borders above its first visible line — one on
+   .row-card, one on .unified-table-row — for the hover highlight. Left alone,
+   those read as a gap between the column headers' divider and the first row's
+   own rule. The list is pulled up by exactly that stack so the two lines meet.
+   This replaces an earlier hardcoded -5px, which overshot into the opaque
+   sticky headers and clipped the top of the first row. Derived from
+   --row-hover-border-width so it follows if the hover borders change. */
+.main-data-body {
+  scrollbar-width: none; /* No scrollbar firefox */
+  overflow-x: hidden;
+  margin-top: calc(-2 * var(--row-hover-border-width));
+}
+
+/* Pattern mode: lock user scrolling while programmatic snapping still works */
+.main-data-body.scroll-locked {
+  overflow-y: hidden !important;
+}
+
+/* Table display wrapper */
+.table-display {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Unified Table Container */
+.unified-table-container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  /* The "Identified aircraft" block reads the same whether it comes from a cell
+     hover (.synthesis-overlay) or an open violation (.violation-aircraft-overlay). */
+  --aircraft-overlay-text-size: 16px;
+
+  /* Width of the transparent borders that .row-card and .unified-table-row
+     reserve for the hover highlight. Two of them stack above a row's first
+     visible line, which is what .main-data-body's negative margin cancels. */
+  --row-hover-border-width: 1px;
+}
+
+/* External Headers Row within unified table */
+.unified-table-container .unified-table-row.external-headers-row {
+  background: var(--grey-shade-1);
+  border: none;
+  margin: 0;
+  cursor: default;
+  min-height: calc(var(--topbar-height) - 5px);
+  align-items: flex-start;
+}
+
+/* Guide highlight for external header cells */
+.unified-table-container .external-header-cell.guide-highlight {
+  background: var(--Yellow);
+  transition: background-color 0.3s ease;
+}
+
+/* Guide highlight for column headers */
+.unified-table-container .column-header.guide-highlight-column {
+  background: var(--Yellow);
+  transition: background-color 0.3s ease;
+}
+
+.unified-table-container .external-header-cell {
+  background: transparent;
+  display: flex;
+  align-items: baseline;
+  font-family: 'ABC Diatype Medium', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--report-section-text-size);
+  line-height: var(--report-section-text-size);
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.unified-table-container .external-header-cell.people-pushed-back-cell {
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+/* Left inset matches .columnar-header-cell (gap margin + 8px .column-header
+   padding) so the title lines up with the "Flight Time" header below. */
+.unified-table-container .external-header-cell.flight-data-cell {
+  justify-content: flex-start;
+  color: var(--blue-6);
+  padding-left: calc(var(--outer-column-gap) + 8px);
+  background: linear-gradient(to right, var(--grey-shade-1) var(--outer-column-gap), transparent var(--outer-column-gap));
+}
+
+/* Guide highlight for flight data cell - keeps gap grey */
+.unified-table-container .external-header-cell.flight-data-cell.guide-highlight {
+  background: linear-gradient(to right, var(--grey-shade-1) var(--outer-column-gap), var(--Yellow) var(--outer-column-gap));
+}
+
+.unified-table-container .data-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.unified-table-container .irini-data-title {
+  color: var(--purple-irini);
+  margin-left: 8px;
+}
+
+.unified-table-container .irini-data-title.guide-highlight {
+  background: var(--Yellow);
+  transition: background-color 0.3s ease;
+}
+
+.unified-table-container .tab {
+  padding: 0;
+  border: none;
+  background: none;
+  transition: all 0.2s;
+}
+
+.unified-table-container .tab.active {
+  background: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.unified-table-container .flight-data-title {
+  color: var(--blue-6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Column Headers Row within unified table */
+.unified-table-container .unified-table-row.column-headers-row {
+  margin: 0;
+  cursor: default;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* min-height: 50px; */
+  /* Size to content (labels wrap to 2-3 lines, exceeding the 40px inherited
+     from .unified-table-row) and never shrink: the flex container would
+     otherwise squash this row toward min-height because the data list's
+     flex-basis is large, spilling the header text onto the first data row. */
+  height: auto;
+  flex-shrink: 0;
+  align-items: stretch;
+  /* The grey divider is drawn on the header CELLS below. The row's own
+     transparent bottom border would then sit under that line as a gap between
+     the headers and the first data row, so the row ends where the line does. */
+  border-bottom-width: 0;
+}
+
+.unified-table-container .column-header {
+  text-align: left;
+  font-weight: bold;
+  font-size: var(--report-section-text-size);
+  color: #333;
+  white-space: normal;
+  word-wrap: anywhere;
+  background: var(--white);
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.unified-table-container .unified-table-row.column-headers-row .column-header:not(.columnar-header-cell) {
+  border-bottom: 1px solid var(--grey-3);
+}
+
+.unified-table-container .column-header.migrants-deterred {
+  justify-content: flex-end;
+}
+
+.unified-table-container .migrants-deterred {
+  text-align: right;
+}
+
+.unified-table-container .columnar-header-cell {
+  color: var(--blue-6-liminal, #0B2EA5);
+  margin-left: calc(var(--outer-column-gap));
+  border-bottom: 1px solid var(--grey-3);
+}
+
+.unified-table-container .columnar-header-cell:first-of-type {
+  border-left: none;
+}
+
+/* Unified Table Rows */
+.unified-table-container .unified-table-row {
+  display: grid;
+  height: 40px;
+  min-height: 40px;
+  align-items: center;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: var(--row-hover-border-width) solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 0px;
+  margin: 0;
+  transition: border-color 0.15s ease;
+  cursor: pointer;
+  gap: 0;
+  position: relative;
+}
+
+.unified-table-container .unified-table-cell {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 12px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: var(--table-row-height);
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+/* EUNAVFOR MED Irini rows read in purple. Same selector specificity as
+   .unified-table-cell above (two classes under the container); placed after
+   it in source order so it wins that tie without needing !important. */
+.unified-table-container .irini-row-cell {
+  color: var(--purple-irini);
+}
+
+.unified-table-container .jora-data-group {
+  background: var(--white);
+  border-top: 1px solid var(--grey-3);
+}
+
+.unified-table-container .flight-data-group {
+  border: 1px solid transparent;
+}
+
+/* Group wrappers within row - use subgrid to maintain grid layout while being actual boxes */
+.unified-table-container .jora-data-group,
+.unified-table-container .flight-data-group {
+  display: grid;
+  grid-template-columns: subgrid;
+  /* Fill the full row height so bottom borders render at the correct position */
+  align-self: stretch;
+}
+
+/* Flight data group has left margin to create gap from JORA data */
+.unified-table-container .flight-data-group {
+  margin-left: var(--outer-column-gap);
+}
+
+/* Cells within groups don't need borders anymore - borders are on groups */
+.unified-table-container .jora-data-group > *,
+.unified-table-container .flight-data-group > * {
+  border: none;
+}
+
+.unified-table-container .unified-table-row:last-child {
+  border-bottom: 1px solid var(--grey-3, #bdbdbd);
+}
+
+/* Row card wrapper - single element for hover borders */
+.unified-table-container .row-card {
+  background: transparent;
+  border-top: var(--row-hover-border-width) solid transparent;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  position: relative;
+}
+
+/* Hover state - left and right borders on all rows in group */
+.unified-table-container .row-card.hovered {
+  border-left-color: var(--blue-5-liminal, #1140ed);
+  border-right-color: var(--blue-5-liminal, #1140ed);
+  background-color: var(--white);
+}
+
+.unified-table-container .row-card.hovered .jora-data-group {
+  background: transparent;
+}
+
+/* First row in group gets top border */
+.unified-table-container .row-card.hovered.first-in-group {
+  border-top-color: var(--blue-5-liminal, #1140ed);
+}
+
+/* The group's own grey rule sits directly beneath that blue top border and
+   reads as a doubled line, so it drops out while the group is hovered. */
+.unified-table-container .row-card.hovered.first-in-group .jora-data-group {
+  border-top-color: transparent;
+}
+
+/* Last row in group gets bottom border */
+.unified-table-container .row-card.hovered.last-in-group {
+  border-bottom-color: var(--blue-5-liminal, #1140ed);
+}
+
+/* Push all rows in hovered date group forward to prevent next row from covering borders */
+.unified-table-container .unified-table-row.hovered {
+  position: relative;
+  z-index: 10;
+}
+
+.unified-table-container .migrants-overlay {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: bold;
+}
+
+.unified-table-container .aerial-asset-overlay {
+  display: flex;
+  align-items: center;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  color: var(--blue-6-liminal);
+  text-align: center;
+  transition: background-color 0.2s;
+  padding: 8px 8px 8px 20px;
+}
+
+.unified-table-container .unified-table-row .aerial-asset-overlay {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/* Synthesis overlay styles */
+.synthesis-overlay {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: var(--nav-subcolumn-width);
+  padding-left: 10px;
+  overflow: visible;
+  pointer-events: none;
+  color: var(--blue-6-liminal);
+  font-size: var(--aircraft-overlay-text-size);
+  opacity: 0;
+}
+
+.unified-table-row.hovered .synthesis-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Fallback hover state for cases where cellHoverColor is not provided */
+.unified-table-container .unified-table-row:hover:not(.hovered):not(.column-headers-row):not(.external-headers-row) {
+  background-color: transparent;
+}
+
+/* Break row styles */
+.unified-table-container .break-row {
+  background: var(--grey-shade-1) !important;
+  border: none !important;
+  cursor: default !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  width: calc(100% - var(--page-horizontal-padding) - var(--nav-subcolumn-width)) !important;
+}
+
+.unified-table-container .break-row-content {
+  grid-column: 1 / -1;
+  max-width: 450px;
+  margin: 0;
+  text-align: left;
+  color: #000;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--report-section-text-size);
+  font-weight: 700;
+  padding: 20px 20px;
+}
+
+.unified-table-container .break-row-content p {
+  margin: 0 0 16px 0;
+}
+
+.unified-table-container .break-row-content p:last-child {
+  margin-bottom: 0;
+}
+
+.unified-table-container .break-row-content a {
+  color: var(--blue-6-liminal, #1140ed);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+}
+
+/* Violation row styles */
+.unified-table-container .unified-table-row.violation-row-outer {
+  align-items: stretch;
+  cursor: default;
+  z-index: 60;
+}
+
+.unified-table-container .row-card.violation-row {
+  background: var(--black);
+  align-items: start;
+  /* Size to content, not to the row. ViolationRow measures this element's
+     offsetHeight and feeds it back as the row's height; if the parent's
+     align-items: stretch applied here, it would measure the height it was
+     already given and a card could never grow past the estimate it started
+     with. Sizing to content makes that loop settle on the real height. */
+  align-self: start;
+}
+
+/* Header pieces (date, Jora ID + tags, aircraft) all start at the same 20px top
+   offset so their tops line up with the first line of the info-text (content
+   padding-top). They sit at the top of the card and scroll with it — react-window
+   positions rows via CSS transforms, which defeats position:sticky, so pinning
+   isn't possible here without an internal scroll container. */
+.unified-table-container .violation-date-cell {
+  display: flex;
+  align-items: flex-start;
+  color: var(--white);
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 20px 8px 0;
+  /* Fixed header height: the date wraps to two lines on medium screens but not on wide
+     ones, and the content below must sit at the same offset either way. */
+  box-sizing: border-box;
+  min-height: 60px;
+}
+
+/* Col 2, second line: Jora ID, in line with the info-text below the header. */
+.unified-table-container .violation-meta-cell {
+  line-height: 1.3;
+}
+
+.unified-table-container .violation-pattern-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  min-width: 0;
+  padding: 20px 8px 0 0;
+}
+
+.unified-table-container .violation-pattern-tag {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 20px;
+  min-width: 0;
+}
+
+/* Same size as .pattern-row-dot in the patterns panel — both are the same mark. */
+.unified-table-container .violation-pattern-dot {
+  width: var(--pattern-dot-size);
+  height: var(--pattern-dot-size);
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.unified-table-container .violation-hollow-dot {
+  width: var(--pattern-dot-size);
+  height: var(--pattern-dot-size);
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid var(--red-liminal);
+  background: transparent;
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+/* Fill the dot on hover, even in non-pattern mode; clicking opens the
+   violation's patterns (see handleViolationDotClick). */
+.unified-table-container .violation-hollow-dot:hover {
+  background: var(--red-liminal);
+}
+
+.unified-table-container .violation-pattern-label {
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.unified-table-container .violation-jora-id-value {
+  color: var(--white);
+  font-size: 13px;
+}
+
+.unified-table-container .violation-row-content {
+  margin: 0;
+  text-align: left;
+  color: var(--white);
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 0 0 64px var(--cell-horizontal-padding);
+}
+
+.unified-table-container .violation-aircraft-track {
+  position: relative;
+}
+
+/* Zero-height anchor at the top of the aircraft column; the absolutely-positioned
+   overlay hangs off it so the aircraft block sits far-right, aligned to the card
+   top with the rest of the header. */
+.unified-table-container .violation-aircraft-sticky {
+  position: relative;
+  top: 0;
+  height: 0;
+}
+
+.unified-table-container .violation-aircraft-overlay {
+  position: absolute;
+  /* Align the aircraft block with the rest of the header. */
+  top: 20px;
+  left: 100%;
+  min-width: var(--nav-subcolumn-width);
+  padding-left: 10px;
+  overflow: visible;
+  pointer-events: none;
+  color: var(--blue-6-liminal);
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--aircraft-overlay-text-size);
+  z-index: 60;
+}
+
+.unified-table-container .violation-row-content .violation-info-text {
+  margin: 0 0 16px 0;
+  font-weight: var(--weight-regular);
+  line-height: 1.3;
+}
+
+.unified-table-container .violation-row-content .violation-links {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.unified-table-container .violation-row-content .violation-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 999px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.unified-table-container .violation-row-content .violation-media {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.unified-table-container .violation-row-content .violation-media-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.unified-table-container .violation-row-content .violation-media-stack-item {
+  margin: 0;
+}
+
+.unified-table-container .violation-row-content .violation-media-carousel-img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.unified-table-container .violation-row-content .violation-media-caption {
+  margin: 4px 0 0;
+  color: var(--grey-3, #999);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.unified-table-container .violation-row-content .violation-media-video {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.unified-table-container .violation-row-content .violation-media-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.unified-table-container .violation-row-content .violation-media-pdf:hover {
+  border-color: var(--white);
+}
+
+.unified-table-container .violation-row-content .violation-media-link {
+  display: block;
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 13px;
+}
+
+.unified-table-container .violation-row-content .violation-read-more {
+  display: inline-block;
+  color: var(--red-liminal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Style to enable underline for rows with no ADSB data */
+.unified-table-container .unified-table-row.is-last-in-group:not(.no-adsb-data):not(.hovered) .flight-data-group {
+  border-bottom: 1px solid var(--grey-3);
+}
+
+/* Pattern mode: dim everything except violation rows, aircraft overlay, and dots */
+.unified-table-container.pattern-mode .unified-table-row:not(.violation-row-outer) {
+  opacity: .3;
+}
+
+/* Dim inactive violation rows; active row stays full opacity */
+.unified-table-container.pattern-mode .violation-row-outer {
+  opacity: .35;
+  transition: opacity 0.2s;
+}
+
+.unified-table-container.pattern-mode .violation-row-outer.violation-active {
+  opacity: 1;
+}
+
+/* No data state */
+.unified-table-container .no-data {
+  padding: 40px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  grid-column: 1 / -1;
+}
+
+/* Utility classes - keep global for use across components */
+.no-shadow-list {
+  box-shadow: none !important;
+  border: 0 !important;
+  outline: none !important;
+  filter: none !important;           /* in case a drop-shadow filter is applied */
+  background-color: var(--grey-shade-1);            /* or your page background */
+}
+
+.no-shadow-list:focus,
+.no-shadow-list:focus-visible {
+  outline: none;                     /* provide your own accessible focus if needed */
+  box-shadow: none;
+}
+
+/* If you see subtle "layer edges", also try resetting GPU hints */
+.no-shadow-list {
+  will-change: auto;
+  transform: none;
+  backface-visibility: hidden;
+}

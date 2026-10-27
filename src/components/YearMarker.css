@@ -1,0 +1,36 @@
+/* YearMarker Component Styles */
+
+/* A bordered year cell spanning its year's vertical extent within a panel.
+   Adjacent cells share the horizontal divider (bottom border). */
+.year-marker {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+/* The year divider runs across the whole panel (clipped by the panel). */
+.year-marker::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2000px;
+  border-bottom: 0.5px solid #cbcbcb;
+}
+
+.year-marker__label {
+  font-size: 8px;
+  font-weight: 600;
+  color: #6b7280; /* Gray-500 */
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  /* Box is rotated 180deg, so bottom padding shows as space below the top border */
+  padding: 0 2px 4px 3px;
+  white-space: nowrap;
+}

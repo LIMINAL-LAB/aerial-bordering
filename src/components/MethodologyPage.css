@@ -1,0 +1,324 @@
+.methodology-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: calc(var(--topbar-height) + 40px) var(--page-horizontal-padding) 200px
+    var(--page-horizontal-padding);
+  background: var(--grey-shade-1);
+  font-family: "ABC Diatype Edu", -apple-system, Roboto, Helvetica, sans-serif;
+  color: var(--black);
+  box-sizing: border-box;
+  /* Break long unbreakable tokens (URLs, long words) so nothing runs off the
+     right edge; 'anywhere' also lets grid/flex text items shrink to fit. */
+  overflow-wrap: anywhere;
+}
+
+.methodology-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.methodology-nav {
+  position: fixed;
+  top: calc(var(--topbar-height) + 40px);
+  left: var(--page-horizontal-padding);
+  width: var(--sidebar-column-width);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+}
+
+.methodology-nav-title {
+  font-size: var(--type-l-size);
+  line-height: var(--type-l-line);
+  font-weight: var(--weight-regular);
+  margin: 0 0 16px;
+}
+
+.methodology-nav-item {
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  font-size: var(--type-s-size);
+  font-weight: var(--weight-bold);
+  line-height: var(--type-s-line);
+  margin-bottom: 8px;
+  color: var(--grey-3);
+  transition: color 0.2s ease;
+}
+
+.methodology-nav-item.active {
+  color: var(--black);
+}
+
+.methodology-nav-item:hover {
+  color: var(--black);
+}
+
+.methodology-section {
+  margin-left: var(--nav-tab-width);
+  width: calc(2 * var(--nav-tab-width));
+  max-width: 100%;
+  margin-bottom: 36px;
+}
+
+.methodology-heading {
+  font-size: var(--report-section-text-size);
+  line-height: 20px;
+  font-weight: var(--weight-bold);
+  margin: 0 0 20px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--grey-2);
+}
+
+.methodology-heading + * {
+  margin-top: 14px;
+}
+
+.methodology-subheading {
+  font-size: var(--report-section-text-size);
+  line-height: 20px;
+  font-weight: var(--weight-bold);
+  margin: 0 0 14px;
+}
+
+/* Body prose is set justified, as in the report, with the browser's own
+   hyphenation. */
+.methodology-section,
+.methodology-list > li {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.methodology-page p {
+  font-size: var(--type-m-size);
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 26px;
+}
+
+.methodology-list {
+  padding-left: 24px;
+  margin: 0;
+}
+
+.methodology-list > li {
+  margin-bottom: 24px;
+}
+
+.methodology-link-ext {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.methodology-link-label {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.methodology-link-ext:hover {
+  text-decoration: none;
+}
+
+.methodology-link-arrow {
+  display: inline-block;
+  margin-left: 0.06em;
+  font-size: 0.68em;
+  line-height: 1;
+  vertical-align: 0.18em;
+}
+
+.methodology-link {
+  color: var(--black);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Lets the grade table scroll horizontally inside its own box on narrow
+   screens rather than forcing the whole page to scroll sideways. */
+.methodology-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.methodology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.methodology-table th,
+.methodology-table td {
+  border: 1px solid var(--divider-color);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.4;
+}
+
+.methodology-table th {
+  background: #e6e6e6;
+  font-weight: 500;
+}
+
+/* Keep "Grade 4" and its header on one line each: shrink-to-fit the first
+   column rather than letting the long criteria column squeeze it. */
+.methodology-table th:first-child,
+.methodology-table td:first-child {
+  white-space: nowrap;
+  width: 1%;
+}
+
+.methodology-downloads {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* A min-height, not a height: on a narrow screen a long label wraps to a
+   second line, and a fixed height would leave it spilling out of the pill. */
+.methodology-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 6px 20px;
+  line-height: 20px;
+  border: 2px solid var(--black);
+  border-radius: 999px;
+  color: var(--black);
+  text-decoration: none;
+  font-size: var(--report-section-text-size);
+}
+
+.methodology-download-glyph {
+  flex-shrink: 0;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+/* Credits: role above its names, one group per row, stacked like
+   .methodology-downloads. The explicit margins clear the browser defaults
+   this project's reset leaves in place — a vertical margin on <dl> and a
+   40px left indent on <dd>. */
+.methodology-credits {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.methodology-credit {
+  display: flex;
+  flex-direction: column;
+}
+
+.methodology-credit-role {
+  margin: 0 0 4px;
+  font-size: var(--report-section-text-size);
+  line-height: 20px;
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.02em;
+}
+
+.methodology-credit-name {
+  margin: 0;
+  font-size: var(--report-section-text-size);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.methodology-funding {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 100px;
+  bottom: 40px;
+}
+
+.methodology-funding-logo {
+  display: block;
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.methodology-page .methodology-funding p {
+  margin: 0;
+  color: var(--grey-3);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  text-align-last: left;
+}
+
+/* Tablet: mirror the Report's step at this breakpoint. The shared sticky-titles
+   overlay narrows to a fixed 150px there (ReportPage.css), so the gutter follows
+   it, and the two-of-four-columns cap then no longer matches the grid — the text
+   would end short of the content edge with an empty band to its right. The
+   fixed nav narrows with it (it is otherwise a quarter of the viewport, wider
+   than the gutter, and its title hangs over the text), and the text keeps the
+   Report's 30px gap clear of it. At 150px the Large title would break inside
+   "Methodology", so it steps down to Medium. */
+@media (max-width: 1200px) {
+  .methodology-nav {
+    width: 150px;
+  }
+
+  .methodology-nav-title {
+    font-size: var(--type-m-size);
+    line-height: var(--type-m-line);
+  }
+
+  .methodology-section {
+    margin-left: 180px;
+    width: auto;
+  }
+}
+
+/* Mobile: collapse the two-column document grid to a single stacked column,
+   drop the reserved sidebar gutter, hide the sticky-titles overlay, and let
+   the grade table scroll within its wrapper. */
+@media (max-width: 768px) {
+  .methodology-nav {
+    display: none;
+  }
+
+  .methodology-section {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .methodology-page p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .methodology-table {
+    min-width: 520px;
+  }
+
+  .methodology-download {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .methodology-page p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

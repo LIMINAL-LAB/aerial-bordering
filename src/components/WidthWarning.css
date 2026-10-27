@@ -1,0 +1,25 @@
+.width-warning-overlay {
+  position: fixed;
+  /* Sit below the fixed topbar (which stays visible and usable, so the reader
+     can navigate to a mobile-friendly page) rather than covering it. */
+  top: var(--topbar-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: var(--black, #000);
+  text-align: center;
+}
+
+.width-warning-message {
+  margin: 0;
+  max-width: 24em;
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.5;
+}

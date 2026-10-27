@@ -1,0 +1,13 @@
+{
+  "_comment": "Report abstract, transcribed from 20260930_Abstract.docx. Kept OUT of report.json because scripts/docx_to_report.py rewrites that file wholesale and would drop this text.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "runs": [
+        {
+          "text": "This report examines how aerial surveillance has reshaped border control in the Central Mediterranean, enabling widespread violations of migrants’ rights. In particular, it shows how, since 2017, Frontex—the European Border and Coast Guard Agency—has progressively built up an extensive fleet of manned and unmanned aircraft operated by private companies, playing a crucial role in facilitating the interception of migrants at sea and their forced return to Libya and Tunisia, where they face grave abuses. As a narrative companion to the database presented on this platform, the report traces the emergence of this phenomenon, unpacks its current operational logics and its contribution to human rights violations, and situates it within broader transformations in bordering practices at the global level."
+        }
+      ]
+    }
+  ]
+}

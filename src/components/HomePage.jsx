@@ -10,13 +10,13 @@ const HomePage = () => {
 
   const contentSections = [
     {
-      text: "Since 2017, the EU border agency Frontex has spearheaded an extensive programme of surveillance from the sky.",
+      text: "Since 2017, the EU border agency Frontex has spearheaded an extensive programme of surveillance from the sky",
     },
     {
-      text: "Through planes and a drone, it monitors the Central Mediterranean and facilitates the interception of migrants at sea and their return to abuse in Libya and Tunisia.",
+      text: "Through planes and a drone, it monitors the Central Mediterranean and facilitates the interception of migrants at sea and their return to abuse in Libya and Tunisia",
     },
     {
-      text: "This platform unravels this system of aerial violence, evidence of which can be found in Frontex's own documentation.",
+      text: "This platform unravels this system of aerial violence, evidence of which can be found in Frontex's own documentation",
     },
   ];
 

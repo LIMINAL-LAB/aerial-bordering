@@ -57,8 +57,12 @@
      a pixel or two, so no black hairline shows between them, while keeping
      the next bar clear of the commas and descenders of the line above at any
      zoom. Set once here and inherited by the span, so it scales with each
-     breakpoint's font size. */
+     breakpoint's font size. Rounded to a whole pixel: a fractional pitch
+     (33.6px at 26px) lands alternate lines on different pixel rows, so the
+     bars' spacing wobbles by a pixel line to line. The unrounded line is the
+     fallback for browsers without round(). */
   line-height: calc(1.1em + 5px);
+  line-height: round(calc(1.1em + 5px), 1px);
   text-transform: uppercase;
   position: relative;
 }

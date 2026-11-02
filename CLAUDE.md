@@ -28,8 +28,8 @@ another page after navigation. Scope selectors to the page.
 | `src/data/report.json` | report draft (.docx) | `just port-report <docx>`; hand edits are lost on the next port |
 | `src/data/abstract.json` | abstract docx | hand (kept out of `report.json` so a port doesn't wipe it) |
 | `MethodologyPage.jsx` | methodology docx | hand: text, grade table and credits live in the JSX |
-| `src/data/app_data_all.json`, `irini.json` | `../frontex-data` | `just app` there |
-| `src/data/violations.json`, `public/pattern-media/` | `../frontex-data` | `just violations` there; can revert editorial work, read the recipe's warning first |
+| `src/data/app_data_all.json`, `irini.json` | external data pipeline | regenerate upstream, never by hand |
+| `src/data/violations.json`, `public/pattern-media/` | external data pipeline | regenerate upstream, never by hand |
 | `public/report-images/` | figure originals | `scripts/optimize_report_images.py <dir>` (webp only) |
 | `public/downloads/` | report PDF, data-analysis PDF, JORA/Irini xlsx | replace the file, keeping its name (linked from Report and Methodology) |
 

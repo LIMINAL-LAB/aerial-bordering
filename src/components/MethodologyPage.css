@@ -95,7 +95,10 @@
   -webkit-hyphens: auto;
 }
 
-.methodology-page p {
+/* List items hold bare text rather than a <p>, so the list takes the body size
+   itself — otherwise it falls back to the browser's 16px. */
+.methodology-page p,
+.methodology-list {
   font-size: var(--type-m-size);
   line-height: 26px;
   font-weight: 400;
@@ -302,7 +305,8 @@
     width: 100%;
   }
 
-  .methodology-page p {
+  .methodology-page p,
+  .methodology-list {
     font-size: 15px;
     line-height: 21px;
   }
@@ -317,7 +321,8 @@
 }
 
 @media (max-width: 480px) {
-  .methodology-page p {
+  .methodology-page p,
+  .methodology-list {
     font-size: 14px;
     line-height: 20px;
   }

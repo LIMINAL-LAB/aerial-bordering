@@ -133,14 +133,6 @@
   font-weight: var(--weight-regular);
 }
 
-.section-text {
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 150%;
-  max-width: 100%;
-  word-wrap: break-word;
-}
-
 /* Clickable index items */
 .clickable {
   cursor: pointer;
@@ -707,11 +699,6 @@
     padding: 0;
   }
 
-  .section-text {
-    font-size: 18px;
-    line-height: 130%;
-  }
-
   .report-toc-link,
   .subsection-title,
   .report-database-link,
@@ -733,7 +720,8 @@
   }
 
   .section-content p,
-  .subsection-content p {
+  .subsection-content p,
+  .report-list {
     font-size: 15px;
     line-height: 21px;
   }
@@ -789,12 +777,9 @@
     padding: 3px 5px;
   }
 
-  .section-text {
-    font-size: 16px;
-  }
-
   .section-content p,
-  .subsection-content p {
+  .subsection-content p,
+  .report-list {
     font-size: 14px;
     line-height: 20px;
   }

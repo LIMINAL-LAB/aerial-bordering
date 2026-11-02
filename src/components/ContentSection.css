@@ -51,7 +51,14 @@
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;
+  /* Each wrapped line of the span is a yellow bar as tall as the font's
+     ascent + descent (~1.15–1.2em in the fallback faces) plus 3px of padding
+     above and below. A pitch of 1.1em + 5px lets successive bars overlap by
+     a pixel or two, so no black hairline shows between them, while keeping
+     the next bar clear of the commas and descenders of the line above at any
+     zoom. Set once here and inherited by the span, so it scales with each
+     breakpoint's font size. */
+  line-height: calc(1.1em + 5px);
   text-transform: uppercase;
   position: relative;
 }
@@ -59,7 +66,6 @@
 @media (max-width: 768px) {
   .text-content {
     font-size: 20px;
-    line-height: 130%;
     padding: 15px;
   }
 }
@@ -67,7 +73,6 @@
 @media (max-width: 480px) {
   .text-content {
     font-size: 16px;
-    line-height: 140%;
     padding: 12px;
   }
 }
@@ -87,11 +92,9 @@
   display: inline;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  line-height: 1.2;
 }
 
-/* Scoped to the home section (beats the bare .section-text rules, including the
-   colliding one in ReportPage.css). Break long uppercase words so a line never
+/* Scoped to the home section (beats the bare .section-text rule). Break long uppercase words so a line never
    grows wider than the column — otherwise centered text overflows and reads as
    off-centre — and apply the same mobile sizing as .text-content (the span's own
    font-size would otherwise keep it at 26px on mobile). */

@@ -20,10 +20,24 @@
         "id": "279650",
         "detectionBy": "YES",
         "detectionInitiated": "OTH",
-        "country": "Tunisia",
+        "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Tunisia",
         "migrantsDetered": 5
+      }
+    ]
+  },
+  "2019-04-16": {
+    "adsb": {},
+    "jora": [
+      {
+        "id": "284878",
+        "detectionBy": "YES",
+        "detectionInitiated": "OTH",
+        "country": "Tunisia",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
       }
     ]
   },
@@ -345,15 +359,6 @@
     "adsb": {},
     "jora": [
       {
-        "id": "74102",
-        "detectionBy": "YES",
-        "detectionInitiated": "OTH",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "Tripoli",
-        "migrantsDetered": 75
-      },
-      {
         "id": "74396",
         "detectionBy": "YES",
         "detectionInitiated": "OTH",
@@ -361,6 +366,15 @@
         "boatType": "rubber boat",
         "disembarkation": "Tripoli",
         "migrantsDetered": 85
+      },
+      {
+        "id": "74102",
+        "detectionBy": "YES",
+        "detectionInitiated": "OTH",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "Tripoli",
+        "migrantsDetered": 75
       },
       {
         "id": "74518",
@@ -464,7 +478,7 @@
         "id": "105603",
         "detectionBy": "YES",
         "detectionInitiated": "MAS",
-        "country": "Tunisia",
+        "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Sfax",
         "migrantsDetered": 0
@@ -965,8 +979,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 25,
-        "duplicate": true
+        "migrantsDetered": 25
       }
     ]
   },
@@ -1078,8 +1091,7 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 80,
-        "duplicate": true
+        "migrantsDetered": 80
       }
     ]
   },
@@ -1190,8 +1202,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 60,
-        "duplicate": true
+        "migrantsDetered": 60
       }
     ]
   },
@@ -1267,6 +1278,27 @@
       }
     ]
   },
+  "2020-11-10": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b"
+      ],
+      "flightminutes": 1103.96,
+      "flighthours": 18.399333333333335
+    },
+    "jora": [
+      {
+        "id": "315435",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "Tripoli",
+        "migrantsDetered": 11
+      }
+    ]
+  },
   "2020-11-13": {
     "adsb": {
       "assets": [
@@ -1315,27 +1347,6 @@
         "boatType": "fishing boat",
         "disembarkation": "Tripoli",
         "migrantsDetered": 12
-      }
-    ]
-  },
-  "2020-11-10": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b"
-      ],
-      "flightminutes": 1103.96,
-      "flighthours": 18.399333333333335
-    },
-    "jora": [
-      {
-        "id": "315435",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "Tripoli",
-        "migrantsDetered": 11
       }
     ]
   },
@@ -1625,8 +1636,7 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 60,
-        "duplicate": true
+        "migrantsDetered": 60
       },
       {
         "id": "549865",
@@ -1676,7 +1686,7 @@
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "Zuw\u0101rah",
-        "migrantsDetered": 0
+        "migrantsDetered": 45
       }
     ]
   },
@@ -1698,7 +1708,7 @@
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 0
+        "migrantsDetered": 111
       }
     ]
   },
@@ -1891,7 +1901,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 0
+        "migrantsDetered": 50
       }
     ]
   },
@@ -1941,8 +1951,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80,
-        "duplicate": true
+        "migrantsDetered": 80
       }
     ]
   },
@@ -2000,8 +2009,7 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 100,
-        "duplicate": true
+        "migrantsDetered": 100
       },
       {
         "id": "607426",
@@ -2115,7 +2123,7 @@
         "id": "613934",
         "detectionBy": "YES",
         "detectionInitiated": "CAL",
-        "country": "Tunisia",
+        "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Tunisia",
         "migrantsDetered": 100
@@ -2157,7 +2165,7 @@
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 0
+        "migrantsDetered": 100
       }
     ]
   },
@@ -2293,8 +2301,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 40,
-        "duplicate": true
+        "migrantsDetered": 40
       },
       {
         "id": "628845",
@@ -2303,8 +2310,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 40,
-        "duplicate": true
+        "migrantsDetered": 40
       },
       {
         "id": "628848",
@@ -2331,8 +2337,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 79,
-        "duplicate": true
+        "migrantsDetered": 79
       }
     ]
   },
@@ -2397,8 +2402,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 90,
-        "duplicate": true
+        "migrantsDetered": 90
       }
     ]
   },
@@ -2436,8 +2440,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 100,
-        "duplicate": true
+        "migrantsDetered": 100
       },
       {
         "id": "630491",
@@ -2664,6 +2667,44 @@
       }
     ]
   },
+  "2021-07-02": {
+    "adsb": {
+      "assets": [
+        "4d232d"
+      ],
+      "flightminutes": 986.9283333333333,
+      "flighthours": 16.448805555555555
+    },
+    "jora": [
+      {
+        "id": "653936",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "Tunisia",
+        "migrantsDetered": 84
+      },
+      {
+        "id": "653979",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "Tripoli",
+        "migrantsDetered": 41
+      },
+      {
+        "id": "654111",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "Tripoli",
+        "migrantsDetered": 80
+      }
+    ]
+  },
   "2021-07-03": {
     "adsb": {
       "assets": [
@@ -2702,44 +2743,6 @@
       }
     ]
   },
-  "2021-07-02": {
-    "adsb": {
-      "assets": [
-        "4d232d"
-      ],
-      "flightminutes": 986.9283333333333,
-      "flighthours": 16.448805555555555
-    },
-    "jora": [
-      {
-        "id": "653936",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Tunisia",
-        "boatType": "wooden boat",
-        "disembarkation": "Tunisia",
-        "migrantsDetered": 84
-      },
-      {
-        "id": "653979",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "Tripoli",
-        "migrantsDetered": 41
-      },
-      {
-        "id": "654111",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "Tripoli",
-        "migrantsDetered": 80
-      }
-    ]
-  },
   "2021-07-04": {
     "adsb": {
       "assets": [
@@ -2775,8 +2778,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 80,
-        "duplicate": true
+        "migrantsDetered": 80
       }
     ]
   },
@@ -2794,10 +2796,49 @@
         "id": "674929",
         "detectionBy": "YES",
         "detectionInitiated": "OTH",
-        "country": "Tunisia",
+        "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "Tunisia",
         "migrantsDetered": 300
+      }
+    ]
+  },
+  "2021-07-21": {
+    "adsb": {
+      "assets": [
+        "43ed4b",
+        "4d232d"
+      ],
+      "flightminutes": 1354.185,
+      "flighthours": 22.56975
+    },
+    "jora": [
+      {
+        "id": "676554",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "Tripoli",
+        "migrantsDetered": 50
+      },
+      {
+        "id": "676574",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "Tripoli",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "676739",
+        "detectionBy": "YES",
+        "detectionInitiated": "MAS",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "Libya",
+        "migrantsDetered": 60
       }
     ]
   },
@@ -2844,8 +2885,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 10,
-        "duplicate": true
+        "migrantsDetered": 10
       },
       {
         "id": "680329",
@@ -2891,45 +2931,6 @@
         "boatType": "rubber boat",
         "disembarkation": "Libia",
         "migrantsDetered": 70
-      }
-    ]
-  },
-  "2021-07-21": {
-    "adsb": {
-      "assets": [
-        "43ed4b",
-        "4d232d"
-      ],
-      "flightminutes": 1354.185,
-      "flighthours": 22.56975
-    },
-    "jora": [
-      {
-        "id": "676554",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "Tripoli",
-        "migrantsDetered": 50
-      },
-      {
-        "id": "676574",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "Tripoli",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "676739",
-        "detectionBy": "YES",
-        "detectionInitiated": "MAS",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "Libya",
-        "migrantsDetered": 60
       }
     ]
   },
@@ -3042,8 +3043,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 20,
-        "duplicate": true
+        "migrantsDetered": 20
       },
       {
         "id": "681090",
@@ -3181,8 +3181,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 15,
-        "duplicate": true
+        "migrantsDetered": 15
       },
       {
         "id": "702389",
@@ -3191,8 +3190,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 15,
-        "duplicate": true
+        "migrantsDetered": 15
       },
       {
         "id": "702404",
@@ -3257,8 +3255,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 7,
-        "duplicate": true
+        "migrantsDetered": 7
       },
       {
         "id": "704620",
@@ -3267,8 +3264,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 7,
-        "duplicate": true
+        "migrantsDetered": 7
       },
       {
         "id": "704625",
@@ -3286,8 +3282,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 50,
-        "duplicate": true
+        "migrantsDetered": 50
       },
       {
         "id": "704637",
@@ -3296,8 +3291,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 30,
-        "duplicate": true
+        "migrantsDetered": 30
       },
       {
         "id": "707127",
@@ -3324,8 +3318,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 10,
-        "duplicate": true
+        "migrantsDetered": 10
       },
       {
         "id": "711010",
@@ -3526,8 +3519,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80,
-        "duplicate": true
+        "migrantsDetered": 80
       },
       {
         "id": "716977",
@@ -3536,8 +3528,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80,
-        "duplicate": true
+        "migrantsDetered": 80
       },
       {
         "id": "717324",
@@ -3564,8 +3555,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80,
-        "duplicate": true
+        "migrantsDetered": 80
       },
       {
         "id": "717365",
@@ -3656,57 +3646,27 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 15,
-        "duplicate": true
+        "migrantsDetered": 15
       }
     ]
   },
-  "2021-12-16": {
+  "2021-09-13": {
     "adsb": {
       "assets": [
-        "40785b",
-        "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1694.4383333333333,
-      "flighthours": 28.24063888888889
+      "flightminutes": 887.9966666666667,
+      "flighthours": 14.799944444444444
     },
     "jora": [
       {
-        "id": "833398",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Tunisia",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      },
-      {
-        "id": "831979",
+        "id": "739995",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "833170",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 58
-      },
-      {
-        "id": "833177",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
+        "migrantsDetered": 60
       }
     ]
   },
@@ -3782,8 +3742,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30,
-        "duplicate": true
+        "migrantsDetered": 30
       }
     ]
   },
@@ -3808,112 +3767,663 @@
       }
     ]
   },
-  "2022-01-20": {
+  "2021-09-19": {
     "adsb": {
       "assets": [
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 1448.1533333333334,
-      "flighthours": 24.13588888888889
-    },
-    "jora": [
-      {
-        "id": "864893",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-01-19": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 1216.1200000000001,
-      "flighthours": 20.268666666666668
-    },
-    "jora": [
-      {
-        "id": "863851",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 45
-      }
-    ]
-  },
-  "2021-09-13": {
-    "adsb": {
-      "assets": [
+        "43ee55",
         "4d232d"
       ],
-      "flightminutes": 887.9966666666667,
-      "flighthours": 14.799944444444444
+      "flightminutes": 1288.3466666666668,
+      "flighthours": 21.472444444444445
     },
     "jora": [
       {
-        "id": "739995",
+        "id": "747367",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-01-21": {
-    "adsb": {},
-    "jora": [
-      {
-        "id": "866552",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
         "disembarkation": "",
         "migrantsDetered": 20
       },
       {
-        "id": "869183",
+        "id": "747381",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 91
+        "migrantsDetered": 30
       }
     ]
   },
-  "2022-01-03": {
+  "2021-09-21": {
+    "adsb": {
+      "assets": [
+        "406870",
+        "4d232d"
+      ],
+      "flightminutes": 1001.7466666666666,
+      "flighthours": 16.695777777777774
+    },
+    "jora": [
+      {
+        "id": "749677",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2021-09-29": {
+    "adsb": {
+      "assets": [
+        "4d232d"
+      ],
+      "flightminutes": 697.4500000000002,
+      "flighthours": 11.62416666666667
+    },
+    "jora": [
+      {
+        "id": "758173",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2021-10-03": {
+    "adsb": {
+      "assets": [
+        "40785b"
+      ],
+      "flightminutes": 334.0066666666667,
+      "flighthours": 5.566777777777778
+    },
+    "jora": [
+      {
+        "id": "763373",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 25
+      }
+    ]
+  },
+  "2021-10-12": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1466.8883333333335,
+      "flighthours": 24.44813888888889
+    },
+    "jora": [
+      {
+        "id": "772567",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 70
+      }
+    ]
+  },
+  "2021-10-17": {
     "adsb": {
       "assets": [
         "40785b",
         "43ee55",
-        "4d232d",
-        "4d2376"
+        "4d232d"
       ],
-      "flightminutes": 1398.8483333333334,
-      "flighthours": 23.314138888888888
+      "flightminutes": 1360.8183333333334,
+      "flighthours": 22.680305555555556
     },
     "jora": [
       {
-        "id": "851130",
+        "id": "778064",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2021-10-18": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ed4b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1660.6066666666666,
+      "flighthours": 27.676777777777776
+    },
+    "jora": [
+      {
+        "id": "778128",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "778141",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2021-10-22": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ee55"
+      ],
+      "flightminutes": 1219.8366666666666,
+      "flighthours": 20.33061111111111
+    },
+    "jora": [
+      {
+        "id": "782394",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 25
+      }
+    ]
+  },
+  "2021-10-23": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1246.8916666666669,
+      "flighthours": 20.781527777777782
+    },
+    "jora": [
+      {
+        "id": "784811",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 20
+      },
+      {
+        "id": "784826",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      },
+      {
+        "id": "784851",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 70
+      }
+    ]
+  },
+  "2021-10-31": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ed4b",
+        "4d232d"
+      ],
+      "flightminutes": 1399.27,
+      "flighthours": 23.321166666666667
+    },
+    "jora": [
+      {
+        "id": "791502",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2021-11-02": {
+    "adsb": {
+      "assets": [
+        "4d232d"
+      ],
+      "flightminutes": 1001.2383333333333,
+      "flighthours": 16.687305555555557
+    },
+    "jora": [
+      {
+        "id": "792551",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      },
+      {
+        "id": "792560",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "792711",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "792716",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2021-11-03": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1238.9683333333332,
+      "flighthours": 20.649472222222222
+    },
+    "jora": [
+      {
+        "id": "794508",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 12
+      },
+      {
+        "id": "794513",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 70
+      }
+    ]
+  },
+  "2021-11-04": {
+    "adsb": {
+      "assets": [
+        "4d232d"
+      ],
+      "flightminutes": 983.8799999999999,
+      "flighthours": 16.398
+    },
+    "jora": [
+      {
+        "id": "795245",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 20
+      }
+    ]
+  },
+  "2021-11-08": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ed4b",
+        "4d232d"
+      ],
+      "flightminutes": 1533.8883333333335,
+      "flighthours": 25.56480555555556
+    },
+    "jora": [
+      {
+        "id": "799157",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2021-11-12": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 797.3616666666666,
+      "flighthours": 13.28936111111111
+    },
+    "jora": [
+      {
+        "id": "804082",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2021-11-13": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ed4b",
+        "4d232d"
+      ],
+      "flightminutes": 1614.8733333333334,
+      "flighthours": 26.91455555555556
+    },
+    "jora": [
+      {
+        "id": "804095",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2021-11-16": {
+    "adsb": {
+      "assets": [
+        "43ed4b",
+        "4d232d"
+      ],
+      "flightminutes": 1360.55,
+      "flighthours": 22.675833333333333
+    },
+    "jora": [
+      {
+        "id": "807476",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      },
+      {
+        "id": "807482",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      }
+    ]
+  },
+  "2021-11-18": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1067.935,
+      "flighthours": 17.798916666666667
+    },
+    "jora": [
+      {
+        "id": "808540",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 85
+      },
+      {
+        "id": "809060",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 100
+      },
+      {
+        "id": "809063",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      },
+      {
+        "id": "809100",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "809106",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 100
+      }
+    ]
+  },
+  "2021-11-21": {
+    "adsb": {
+      "assets": [
+        "43ed4b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1389.6683333333333,
+      "flighthours": 23.16113888888889
+    },
+    "jora": [
+      {
+        "id": "812312",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "812321",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      }
+    ]
+  },
+  "2021-11-23": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1424.7350000000001,
+      "flighthours": 23.745583333333336
+    },
+    "jora": [
+      {
+        "id": "813184",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2021-11-24": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1228.8383333333334,
+      "flighthours": 20.48063888888889
+    },
+    "jora": [
+      {
+        "id": "814259",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "815906",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      },
+      {
+        "id": "815910",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Tunisia",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 487
+      }
+    ]
+  },
+  "2021-12-16": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1694.4383333333333,
+      "flighthours": 28.24063888888889
+    },
+    "jora": [
+      {
+        "id": "831979",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "833170",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 58
+      },
+      {
+        "id": "833177",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "833398",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Tunisia",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2021-12-17": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ed4b",
+        "4d232d"
+      ],
+      "flightminutes": 1397.2166666666667,
+      "flighthours": 23.286944444444444
+    },
+    "jora": [
+      {
+        "id": "834808",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 31
       }
     ]
   },
@@ -3949,27 +4459,223 @@
       }
     ]
   },
-  "2021-11-18": {
+  "2022-01-03": {
     "adsb": {
       "assets": [
+        "40785b",
         "43ee55",
-        "4d232d"
+        "4d232d",
+        "4d2376"
       ],
-      "flightminutes": 1067.935,
-      "flighthours": 17.798916666666667
+      "flightminutes": 1398.8483333333334,
+      "flighthours": 23.314138888888888
     },
     "jora": [
       {
-        "id": "808540",
+        "id": "851130",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Tunisia",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2022-01-19": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4d232d",
+        "4d2376"
+      ],
+      "flightminutes": 1216.1200000000001,
+      "flighthours": 20.268666666666668
+    },
+    "jora": [
+      {
+        "id": "863851",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 85
+        "migrantsDetered": 45
+      }
+    ]
+  },
+  "2022-01-20": {
+    "adsb": {
+      "assets": [
+        "4d232d",
+        "4d2376"
+      ],
+      "flightminutes": 1448.1533333333334,
+      "flighthours": 24.13588888888889
+    },
+    "jora": [
+      {
+        "id": "864893",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-01-21": {
+    "adsb": {},
+    "jora": [
+      {
+        "id": "864902",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
       },
       {
-        "id": "809063",
+        "id": "866552",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 20
+      },
+      {
+        "id": "869183",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 91
+      }
+    ]
+  },
+  "2022-01-27": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4d232d",
+        "4d2376"
+      ],
+      "flightminutes": 1342.7233333333331,
+      "flighthours": 22.37872222222222
+    },
+    "jora": [
+      {
+        "id": "874168",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      }
+    ]
+  },
+  "2022-02-12": {
+    "adsb": {
+      "assets": [
+        "4079f3",
+        "43ed4b",
+        "4860b1",
+        "4d232d",
+        "4d2376"
+      ],
+      "flightminutes": 2405.8816666666667,
+      "flighthours": 40.09802777777778
+    },
+    "jora": [
+      {
+        "id": "885488",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2022-02-13": {
+    "adsb": {
+      "assets": [
+        "4079f3",
+        "43ed4b",
+        "4860b1",
+        "4d232d",
+        "4d2376"
+      ],
+      "flightminutes": 2605.181666666667,
+      "flighthours": 43.419694444444445
+    },
+    "jora": [
+      {
+        "id": "885837",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 65
+      },
+      {
+        "id": "885849",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 20
+      }
+    ]
+  },
+  "2022-02-18": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "4079f3",
+        "43ed4b",
+        "43ee55",
+        "4860b1",
+        "4d232d"
+      ],
+      "flightminutes": 2047.2583333333332,
+      "flighthours": 34.12097222222222
+    },
+    "jora": [
+      {
+        "id": "890958",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 45
+      }
+    ]
+  },
+  "2022-02-19": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "4079f3",
+        "43ed4b",
+        "43ee55",
+        "4860b1"
+      ],
+      "flightminutes": 2491.331666666667,
+      "flighthours": 41.52219444444445
+    },
+    "jora": [
+      {
+        "id": "892420",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -3978,111 +4684,56 @@
         "migrantsDetered": 50
       },
       {
-        "id": "809100",
+        "id": "892443",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "809106",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 100
-      },
-      {
-        "id": "809060",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 100,
-        "duplicate": true
-      }
-    ]
-  },
-  "2021-10-12": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1466.8883333333335,
-      "flighthours": 24.44813888888889
-    },
-    "jora": [
-      {
-        "id": "772567",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
         "disembarkation": "",
         "migrantsDetered": 70
       }
     ]
   },
-  "2021-10-03": {
+  "2022-02-26": {
     "adsb": {
       "assets": [
-        "40785b"
-      ],
-      "flightminutes": 334.0066666666667,
-      "flighthours": 5.566777777777778
-    },
-    "jora": [
-      {
-        "id": "763373",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 25
-      }
-    ]
-  },
-  "2021-12-17": {
-    "adsb": {
-      "assets": [
+        "407637",
         "40785b",
-        "43ed4b",
-        "4d232d"
+        "4079f3",
+        "43ee55",
+        "4860b1",
+        "4d232d",
+        "4d2376"
       ],
-      "flightminutes": 1397.2166666666667,
-      "flighthours": 23.286944444444444
+      "flightminutes": 3498.005,
+      "flighthours": 58.30008333333333
     },
     "jora": [
       {
-        "id": "834808",
+        "id": "897302",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
-        "boatType": "wooden boat",
+        "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 31
+        "migrantsDetered": 80
       }
     ]
   },
-  "2021-09-19": {
+  "2022-03-04": {
     "adsb": {
       "assets": [
+        "407637",
+        "40785b",
         "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1288.3466666666668,
-      "flighthours": 21.472444444444445
+      "flightminutes": 2965.305,
+      "flighthours": 49.421749999999996
     },
     "jora": [
       {
-        "id": "747367",
+        "id": "902208",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -4091,30 +4742,75 @@
         "migrantsDetered": 20
       },
       {
-        "id": "747381",
+        "id": "902349",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 65
+      },
+      {
+        "id": "903572",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      },
+      {
+        "id": "903586",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2022-03-05": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "43ed4b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 3602.8766666666666,
+      "flighthours": 60.04794444444444
+    },
+    "jora": [
+      {
+        "id": "903598",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
         "migrantsDetered": 30
       }
     ]
   },
-  "2022-08-27": {
+  "2022-03-11": {
     "adsb": {
       "assets": [
-        "40785b",
+        "407637",
         "4079f3",
+        "43ed4b",
         "43ee55",
-        "4d232d"
+        "4d232d",
+        "4d2376"
       ],
-      "flightminutes": 2032.2206666666666,
-      "flighthours": 33.87034444444444
+      "flightminutes": 2769.81,
+      "flighthours": 46.1635
     },
     "jora": [
       {
-        "id": "1213617",
+        "id": "909034",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -4123,500 +4819,45 @@
         "migrantsDetered": 50
       },
       {
-        "id": "1213629",
+        "id": "909490",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      },
-      {
-        "id": "1213658",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
         "disembarkation": "",
         "migrantsDetered": 80
       }
     ]
   },
-  "2022-11-02": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1968.2685000000001,
-      "flighthours": 32.804475000000004
-    },
-    "jora": [
-      {
-        "id": "1351232",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 10
-      }
-    ]
-  },
-  "2022-09-08": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43eed2"
-      ],
-      "flightminutes": 761.6909999999999,
-      "flighthours": 12.694849999999999
-    },
-    "jora": [
-      {
-        "id": "1240073",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 25
-      }
-    ]
-  },
-  "2022-10-22": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 2889.0081666666665,
-      "flighthours": 48.15013611111111
-    },
-    "jora": [
-      {
-        "id": "1329415",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-09-02": {
+  "2022-03-29": {
     "adsb": {
       "assets": [
         "407637",
         "40785b",
-        "4d232d"
+        "4079f3",
+        "43ed4b"
       ],
-      "flightminutes": 1764.587333333333,
-      "flighthours": 29.409788888888883
+      "flightminutes": 1887.0833333333335,
+      "flighthours": 31.451388888888893
     },
     "jora": [
       {
-        "id": "1229230",
+        "id": "931114",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 75
-      }
-    ]
-  },
-  "2022-09-03": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "43eed2",
-        "4d232d"
-      ],
-      "flightminutes": 2075.7463333333326,
-      "flighthours": 34.59577222222221
-    },
-    "jora": [
-      {
-        "id": "1229243",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 100
       },
       {
-        "id": "1229265",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-09-14": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43eed2",
-        "4d232d"
-      ],
-      "flightminutes": 1488.1169999999997,
-      "flighthours": 24.801949999999994
-    },
-    "jora": [
-      {
-        "id": "1250900",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Tunisia",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 15
-      }
-    ]
-  },
-  "2022-10-30": {
-    "adsb": {
-      "assets": [
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 847.5541666666666,
-      "flighthours": 14.125902777777776
-    },
-    "jora": [
-      {
-        "id": "1343938",
+        "id": "931121",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 14
-      }
-    ]
-  },
-  "2022-10-27": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 787.9830000000001,
-      "flighthours": 13.13305
-    },
-    "jora": [
-      {
-        "id": "1338225",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 75
-      }
-    ]
-  },
-  "2022-09-12": {
-    "adsb": {
-      "assets": [
-        "43eed2",
-        "4d232d",
-        "4d2355"
-      ],
-      "flightminutes": 1606.5313333333334,
-      "flighthours": 26.77552222222222
-    },
-    "jora": [
-      {
-        "id": "1249516",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 15
-      },
-      {
-        "id": "1249525",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-09-13": {
-    "adsb": {
-      "assets": [
-        "43ee55",
-        "43eed2",
-        "4d232d"
-      ],
-      "flightminutes": 1392.2259999999999,
-      "flighthours": 23.203766666666663
-    },
-    "jora": [
-      {
-        "id": "1249542",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "1249558",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 30,
-        "duplicate": true
-      }
-    ]
-  },
-  "2022-10-31": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55"
-      ],
-      "flightminutes": 1080.7491666666665,
-      "flighthours": 18.01248611111111
-    },
-    "jora": [
-      {
-        "id": "1348699",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 84
-      }
-    ]
-  },
-  "2022-10-17": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 781.0930000000001,
-      "flighthours": 13.018216666666667
-    },
-    "jora": [
-      {
-        "id": "1318424",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      }
-    ]
-  },
-  "2022-10-25": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1197.6371666666666,
-      "flighthours": 19.960619444444443
-    },
-    "jora": [
-      {
-        "id": "1335934",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 70
-      }
-    ]
-  },
-  "2022-09-01": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b"
-      ],
-      "flightminutes": 1192.5590000000002,
-      "flighthours": 19.875983333333338
-    },
-    "jora": [
-      {
-        "id": "1223272",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 120
-      }
-    ]
-  },
-  "2022-08-31": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1842.1338333333333,
-      "flighthours": 30.702230555555555
-    },
-    "jora": [
-      {
-        "id": "1219522",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-10-19": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1018.6778333333334,
-      "flighthours": 16.97796388888889
-    },
-    "jora": [
-      {
-        "id": "1321463",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      }
-    ]
-  },
-  "2022-08-29": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1524.6378333333334,
-      "flighthours": 25.410630555555556
-    },
-    "jora": [
-      {
-        "id": "1216693",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      }
-    ]
-  },
-  "2022-08-30": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1909.9618333333337,
-      "flighthours": 31.83269722222223
-    },
-    "jora": [
-      {
-        "id": "1219106",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 100
-      }
-    ]
-  },
-  "2022-09-10": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43ee55",
-        "43eed2",
-        "4d232d",
-        "4d2355"
-      ],
-      "flightminutes": 1172.2436666666665,
-      "flighthours": 19.53739444444444
-    },
-    "jora": [
-      {
-        "id": "1244590",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      }
-    ]
-  },
-  "2022-10-18": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ee55"
-      ],
-      "flightminutes": 798.0778333333335,
-      "flighthours": 13.301297222222225
-    },
-    "jora": [
-      {
-        "id": "1320130",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 103
       }
     ]
   },
@@ -4632,6 +4873,15 @@
       "flighthours": 37.775083333333335
     },
     "jora": [
+      {
+        "id": "942622",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 70
+      },
       {
         "id": "943587",
         "detectionBy": "YES",
@@ -4649,104 +4899,6 @@
         "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 77
-      },
-      {
-        "id": "942622",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 70,
-        "duplicate": true
-      }
-    ]
-  },
-  "2022-04-10": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 1578.7150000000001,
-      "flighthours": 26.31191666666667
-    },
-    "jora": [
-      {
-        "id": "945356",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 75
-      }
-    ]
-  },
-  "2023-01-04": {
-    "adsb": {
-      "assets": [
-        "4079f3",
-        "43eed2",
-        "4d232d"
-      ],
-      "flightminutes": 1277.9790000000003,
-      "flighthours": 21.299650000000003
-    },
-    "jora": [
-      {
-        "id": "1460640",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 85
-      }
-    ]
-  },
-  "2022-12-05": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1483.1268333333333,
-      "flighthours": 24.718780555555554
-    },
-    "jora": [
-      {
-        "id": "1411820",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-12-04": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1714.4595,
-      "flighthours": 28.574324999999998
-    },
-    "jora": [
-      {
-        "id": "1410357",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 114
       }
     ]
   },
@@ -4783,816 +4935,25 @@
       }
     ]
   },
-  "2022-12-07": {
+  "2022-04-10": {
     "adsb": {
       "assets": [
         "40785b",
-        "4079f3",
-        "4d232d"
+        "4d232d",
+        "4d2376"
       ],
-      "flightminutes": 1722.0185000000001,
-      "flighthours": 28.700308333333336
+      "flightminutes": 1578.7150000000001,
+      "flighthours": 26.31191666666667
     },
     "jora": [
       {
-        "id": "1418344",
+        "id": "945356",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 67
-      }
-    ]
-  },
-  "2022-11-10": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1615.9496666666669,
-      "flighthours": 26.932494444444448
-    },
-    "jora": [
-      {
-        "id": "1372446",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-11-08": {
-    "adsb": {
-      "assets": [
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1265.2966666666669,
-      "flighthours": 21.08827777777778
-    },
-    "jora": [
-      {
-        "id": "1365125",
-        "detectionBy": "YES",
-        "detectionInitiated": "LUX",
-        "country": "Tunisia",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 3
-      }
-    ]
-  },
-  "2022-10-13": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3"
-      ],
-      "flightminutes": 1381.915,
-      "flighthours": 23.031916666666667
-    },
-    "jora": [
-      {
-        "id": "1308995",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-10-08": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 1681.327833333333,
-      "flighthours": 28.022130555555552
-    },
-    "jora": [
-      {
-        "id": "1300745",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "1300762",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      },
-      {
-        "id": "1300773",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30,
-        "duplicate": true
-      },
-      {
-        "id": "1300782",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      },
-      {
-        "id": "1300789",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30,
-        "duplicate": true
-      }
-    ]
-  },
-  "2023-01-25": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 1363.9516666666668,
-      "flighthours": 22.73252777777778
-    },
-    "jora": [
-      {
-        "id": "1499140",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 25
-      },
-      {
-        "id": "1499142",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-10-09": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 2080.635333333333,
-      "flighthours": 34.677255555555554
-    },
-    "jora": [
-      {
-        "id": "1300842",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      },
-      {
-        "id": "1300862",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      },
-      {
-        "id": "1300888",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2023-01-02": {
-    "adsb": {
-      "assets": [
-        "4079f3",
-        "43eed2",
-        "4d232d"
-      ],
-      "flightminutes": 1567.473,
-      "flighthours": 26.12455
-    },
-    "jora": [
-      {
-        "id": "1454734",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      },
-      {
-        "id": "1454755",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 80,
-        "duplicate": true
-      }
-    ]
-  },
-  "2022-05-12": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55"
-      ],
-      "flightminutes": 1343.9633333333334,
-      "flighthours": 22.39938888888889
-    },
-    "jora": [
-      {
-        "id": "1000508",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      },
-      {
-        "id": "1000523",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 100
-      }
-    ]
-  },
-  "2022-08-12": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55"
-      ],
-      "flightminutes": 592.4623333333334,
-      "flighthours": 9.874372222222224
-    },
-    "jora": [
-      {
-        "id": "1182541",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-08-02": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1714.2188333333336,
-      "flighthours": 28.570313888888894
-    },
-    "jora": [
-      {
-        "id": "1155077",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 25
-      }
-    ]
-  },
-  "2022-08-09": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1739.7609999999997,
-      "flighthours": 28.996016666666662
-    },
-    "jora": [
-      {
-        "id": "1169127",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 15
-      }
-    ]
-  },
-  "2022-05-13": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1445.91,
-      "flighthours": 24.0985
-    },
-    "jora": [
-      {
-        "id": "1000545",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      },
-      {
-        "id": "1003217",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-08-16": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1790.9138333333333,
-      "flighthours": 29.848563888888886
-    },
-    "jora": [
-      {
-        "id": "1184613",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-08-07": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 2356.537166666667,
-      "flighthours": 39.27561944444445
-    },
-    "jora": [
-      {
-        "id": "1165650",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 25
-      }
-    ]
-  },
-  "2022-06-03": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3"
-      ],
-      "flightminutes": 1121.5933333333332,
-      "flighthours": 18.69322222222222
-    },
-    "jora": [
-      {
-        "id": "1038329",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 11
-      }
-    ]
-  },
-  "2022-07-30": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d0291",
-        "4d232d"
-      ],
-      "flightminutes": 968.4381666666666,
-      "flighthours": 16.14063611111111
-    },
-    "jora": [
-      {
-        "id": "1150785",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Tunisia",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 20
-      }
-    ]
-  },
-  "2022-06-05": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 1915.2783333333332,
-      "flighthours": 31.921305555555552
-    },
-    "jora": [
-      {
-        "id": "1039136",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "1039151",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      },
-      {
-        "id": "1040994",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Tunisia",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 13
-      }
-    ]
-  },
-  "2022-07-31": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 2136.2208333333333,
-      "flighthours": 35.603680555555556
-    },
-    "jora": [
-      {
-        "id": "1150829",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 35
-      }
-    ]
-  },
-  "2022-06-06": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 2049.225,
-      "flighthours": 34.153749999999995
-    },
-    "jora": [
-      {
-        "id": "1040996",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      },
-      {
-        "id": "1041008",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50,
-        "duplicate": true
-      },
-      {
-        "id": "1041020",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 75
-      },
-      {
-        "id": "1041027",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "1042231",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 15
-      }
-    ]
-  },
-  "2022-08-10": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1867.5193333333334,
-      "flighthours": 31.125322222222223
-    },
-    "jora": [
-      {
-        "id": "1174073",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 20
-      }
-    ]
-  },
-  "2022-06-07": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 2153.8516666666665,
-      "flighthours": 35.897527777777775
-    },
-    "jora": [
-      {
-        "id": "1043482",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 10
-      },
-      {
-        "id": "1043493",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 5
-      },
-      {
-        "id": "1043499",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-07-27": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 1670.7518333333333,
-      "flighthours": 27.84586388888889
-    },
-    "jora": [
-      {
-        "id": "1138019",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-08-08": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1878.9793333333334,
-      "flighthours": 31.316322222222222
-    },
-    "jora": [
-      {
-        "id": "1171627",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 200
-      },
-      {
-        "id": "1165750",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-06-09": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55"
-      ],
-      "flightminutes": 1664.2466666666667,
-      "flighthours": 27.737444444444446
-    },
-    "jora": [
-      {
-        "id": "1048630",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      }
-    ]
-  },
-  "2022-06-02": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1552.2416666666668,
-      "flighthours": 25.870694444444446
-    },
-    "jora": [
-      {
-        "id": "1035630",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      }
-    ]
-  },
-  "2022-07-28": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 1533.9061666666666,
-      "flighthours": 25.565102777777778
-    },
-    "jora": [
-      {
-        "id": "1139992",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      },
-      {
-        "id": "1140219",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 20
-      }
-    ]
-  },
-  "2022-04-26": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1689.9716666666666,
-      "flighthours": 28.166194444444443
-    },
-    "jora": [
-      {
-        "id": "967640",
-        "detectionBy": "YES",
-        "detectionInitiated": "TUN",
-        "country": "Tunisia",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 27
       }
     ]
   },
@@ -5652,243 +5013,274 @@
       }
     ]
   },
-  "2022-06-01": {
+  "2022-04-26": {
     "adsb": {
       "assets": [
-        "407637",
         "40785b",
+        "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1558.121666666667,
-      "flighthours": 25.96869444444445
+      "flightminutes": 1689.9716666666666,
+      "flighthours": 28.166194444444443
     },
     "jora": [
       {
-        "id": "1034727",
+        "id": "967640",
         "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
+        "detectionInitiated": "TUN",
+        "country": "Tunisia",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50
-      },
-      {
-        "id": "1034763",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 70
-      },
-      {
-        "id": "1034784",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "1034747",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50,
-        "duplicate": true
+        "migrantsDetered": 27
       }
     ]
   },
-  "2022-02-26": {
+  "2022-05-03": {
     "adsb": {
       "assets": [
-        "407637",
-        "40785b",
         "4079f3",
         "43ee55",
-        "4860b1",
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 3498.005,
-      "flighthours": 58.30008333333333
-    },
-    "jora": [
-      {
-        "id": "897302",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      }
-    ]
-  },
-  "2022-03-04": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
         "4d232d"
       ],
-      "flightminutes": 2965.305,
-      "flighthours": 49.421749999999996
+      "flightminutes": 1351.05,
+      "flighthours": 22.5175
     },
     "jora": [
       {
-        "id": "902208",
+        "id": "978525",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 20
-      },
+      }
+    ]
+  },
+  "2022-05-09": {
+    "adsb": {
+      "assets": [
+        "4079f3",
+        "43ed4b",
+        "43ee55"
+      ],
+      "flightminutes": 502.57666666666665,
+      "flighthours": 8.376277777777778
+    },
+    "jora": [
       {
-        "id": "903572",
+        "id": "989655",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 80
-      },
+        "migrantsDetered": 83
+      }
+    ]
+  },
+  "2022-05-10": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "43ee55"
+      ],
+      "flightminutes": 550.9216666666666,
+      "flighthours": 9.182027777777778
+    },
+    "jora": [
       {
-        "id": "902349",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 65
-      },
-      {
-        "id": "903586",
+        "id": "992763",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 80
+        "migrantsDetered": 50
       }
     ]
   },
-  "2022-03-05": {
+  "2022-05-11": {
     "adsb": {
       "assets": [
         "407637",
-        "40785b",
         "4079f3",
-        "43ed4b",
-        "43ee55",
-        "4d232d"
+        "43ee55"
       ],
-      "flightminutes": 3602.8766666666666,
-      "flighthours": 60.04794444444444
+      "flightminutes": 943.86,
+      "flighthours": 15.731
     },
     "jora": [
       {
-        "id": "903598",
+        "id": "995174",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 90
+      },
+      {
+        "id": "995203",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 15
       }
     ]
   },
-  "2022-03-11": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ed4b",
-        "43ee55",
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 2769.81,
-      "flighthours": 46.1635
-    },
-    "jora": [
-      {
-        "id": "909490",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      },
-      {
-        "id": "909034",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2022-03-29": {
+  "2022-05-12": {
     "adsb": {
       "assets": [
         "407637",
         "40785b",
-        "4079f3",
-        "43ed4b"
+        "43ee55"
       ],
-      "flightminutes": 1887.0833333333335,
-      "flighthours": 31.451388888888893
+      "flightminutes": 1343.9633333333334,
+      "flighthours": 22.39938888888889
     },
     "jora": [
       {
-        "id": "931114",
+        "id": "1000508",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      },
+      {
+        "id": "1000523",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
         "migrantsDetered": 100
-      },
-      {
-        "id": "931121",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 103
       }
     ]
   },
-  "2022-05-24": {
+  "2022-05-13": {
     "adsb": {
       "assets": [
         "407637",
         "40785b",
-        "4079f3",
+        "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1595.831666666667,
-      "flighthours": 26.597194444444447
+      "flightminutes": 1445.91,
+      "flighthours": 24.0985
     },
     "jora": [
       {
-        "id": "1023493",
+        "id": "1000545",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 40
+      },
+      {
+        "id": "1003217",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-05-16": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1663.915,
+      "flighthours": 27.731916666666667
+    },
+    "jora": [
+      {
+        "id": "1006649",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 15
+      }
+    ]
+  },
+  "2022-05-17": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1591.9283333333333,
+      "flighthours": 26.532138888888888
+    },
+    "jora": [
+      {
+        "id": "1010233",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 31
+      }
+    ]
+  },
+  "2022-05-18": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 2240.675,
+      "flighthours": 37.34458333333334
+    },
+    "jora": [
+      {
+        "id": "1011300",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2022-05-19": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1351.4366666666665,
+      "flighthours": 22.523944444444442
+    },
+    "jora": [
+      {
+        "id": "1012179",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 120
       }
     ]
   },
@@ -5950,8 +5342,7 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50,
-        "duplicate": true
+        "migrantsDetered": 50
       },
       {
         "id": "1019488",
@@ -5973,175 +5364,60 @@
       }
     ]
   },
-  "2022-05-09": {
+  "2022-05-24": {
     "adsb": {
       "assets": [
+        "407637",
+        "40785b",
         "4079f3",
-        "43ed4b",
-        "43ee55"
+        "4d232d"
       ],
-      "flightminutes": 502.57666666666665,
-      "flighthours": 8.376277777777778
+      "flightminutes": 1595.831666666667,
+      "flighthours": 26.597194444444447
     },
     "jora": [
       {
-        "id": "989655",
+        "id": "1023493",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 83
+        "migrantsDetered": 50
       }
     ]
   },
-  "2022-05-03": {
-    "adsb": {
-      "assets": [
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1351.05,
-      "flighthours": 22.5175
-    },
-    "jora": [
-      {
-        "id": "978525",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 20
-      }
-    ]
-  },
-  "2022-08-17": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1690.6528333333335,
-      "flighthours": 28.177547222222227
-    },
-    "jora": [
-      {
-        "id": "1187922",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      }
-    ]
-  },
-  "2022-05-17": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1591.9283333333333,
-      "flighthours": 26.532138888888888
-    },
-    "jora": [
-      {
-        "id": "1010233",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 31
-      }
-    ]
-  },
-  "2022-05-16": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1663.915,
-      "flighthours": 27.731916666666667
-    },
-    "jora": [
-      {
-        "id": "1006649",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 15
-      }
-    ]
-  },
-  "2022-05-18": {
+  "2022-06-01": {
     "adsb": {
       "assets": [
         "407637",
         "40785b",
         "4d232d"
       ],
-      "flightminutes": 2240.675,
-      "flighthours": 37.34458333333334
+      "flightminutes": 1558.121666666667,
+      "flighthours": 25.96869444444445
     },
     "jora": [
       {
-        "id": "1011300",
+        "id": "1034727",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
-      }
-    ]
-  },
-  "2022-05-19": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1351.4366666666665,
-      "flighthours": 22.523944444444442
-    },
-    "jora": [
+        "migrantsDetered": 50
+      },
       {
-        "id": "1012179",
+        "id": "1034747",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 120
-      }
-    ]
-  },
-  "2022-08-24": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4d232d"
-      ],
-      "flightminutes": 1453.2883333333334,
-      "flighthours": 24.221472222222225
-    },
-    "jora": [
+        "migrantsDetered": 50
+      },
       {
-        "id": "1204652",
+        "id": "1034763",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -6150,7 +5426,142 @@
         "migrantsDetered": 70
       },
       {
-        "id": "1204668",
+        "id": "1034784",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2022-06-02": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1552.2416666666668,
+      "flighthours": 25.870694444444446
+    },
+    "jora": [
+      {
+        "id": "1035630",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      }
+    ]
+  },
+  "2022-06-03": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3"
+      ],
+      "flightminutes": 1121.5933333333332,
+      "flighthours": 18.69322222222222
+    },
+    "jora": [
+      {
+        "id": "1038329",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 11
+      }
+    ]
+  },
+  "2022-06-05": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 1915.2783333333332,
+      "flighthours": 31.921305555555552
+    },
+    "jora": [
+      {
+        "id": "1039136",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "1039151",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "1040994",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Tunisia",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 13
+      }
+    ]
+  },
+  "2022-06-06": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 2049.225,
+      "flighthours": 34.153749999999995
+    },
+    "jora": [
+      {
+        "id": "1040996",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      },
+      {
+        "id": "1041008",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      },
+      {
+        "id": "1041020",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 75
+      },
+      {
+        "id": "1041027",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -6159,65 +5570,120 @@
         "migrantsDetered": 30
       },
       {
-        "id": "1204675",
+        "id": "1042231",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
-        "boatType": "rubber boat",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 15
+      }
+    ]
+  },
+  "2022-06-07": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 2153.8516666666665,
+      "flighthours": 35.897527777777775
+    },
+    "jora": [
+      {
+        "id": "1043482",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 10
+      },
+      {
+        "id": "1043493",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 5
+      },
+      {
+        "id": "1043499",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-06-09": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "43ee55"
+      ],
+      "flightminutes": 1664.2466666666667,
+      "flighthours": 27.737444444444446
+    },
+    "jora": [
+      {
+        "id": "1048630",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 40
       }
     ]
   },
-  "2022-05-11": {
+  "2022-06-14": {
     "adsb": {
       "assets": [
         "407637",
         "4079f3",
         "43ee55"
       ],
-      "flightminutes": 943.86,
-      "flighthours": 15.731
+      "flightminutes": 1199.9666666666667,
+      "flighthours": 19.999444444444446
     },
     "jora": [
       {
-        "id": "995174",
+        "id": "1054889",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
-        "country": "Libya",
+        "country": "Tunisia",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 90
-      },
-      {
-        "id": "995203",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 15
+        "migrantsDetered": 30
       }
     ]
   },
-  "2022-05-10": {
+  "2022-06-16": {
     "adsb": {
       "assets": [
         "407637",
+        "4079f3",
         "43ee55"
       ],
-      "flightminutes": 550.9216666666666,
-      "flighthours": 9.182027777777778
+      "flightminutes": 1282.7900000000004,
+      "flighthours": 21.37983333333334
     },
     "jora": [
       {
-        "id": "992763",
+        "id": "1057698",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 60
       }
     ]
   },
@@ -6284,30 +5750,109 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 100,
-        "duplicate": true
+        "migrantsDetered": 100
       }
     ]
   },
-  "2022-07-05": {
+  "2022-06-23": {
     "adsb": {
       "assets": [
         "407637",
         "40785b",
-        "43ee55"
+        "4079f3",
+        "4d232d"
       ],
-      "flightminutes": 1439.8850000000002,
-      "flighthours": 23.998083333333337
+      "flightminutes": 2125.33,
+      "flighthours": 35.42216666666666
     },
     "jora": [
       {
-        "id": "1092734",
+        "id": "1069495",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
-        "country": "Tunisia",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2022-06-26": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 1652.3283333333334,
+      "flighthours": 27.538805555555555
+    },
+    "jora": [
+      {
+        "id": "1072620",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      },
+      {
+        "id": "1081018",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2022-06-30": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 2138.1216666666664,
+      "flighthours": 35.63536111111111
+    },
+    "jora": [
+      {
+        "id": "1082461",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-07-01": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 2756.0716666666667,
+      "flighthours": 45.93452777777778
+    },
+    "jora": [
+      {
+        "id": "1086253",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 20
+        "migrantsDetered": 61
       }
     ]
   },
@@ -6333,80 +5878,25 @@
       }
     ]
   },
-  "2022-02-19": {
+  "2022-07-05": {
     "adsb": {
       "assets": [
         "407637",
-        "4079f3",
-        "43ed4b",
-        "43ee55",
-        "4860b1"
-      ],
-      "flightminutes": 2491.331666666667,
-      "flighthours": 41.52219444444445
-    },
-    "jora": [
-      {
-        "id": "892420",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      },
-      {
-        "id": "892443",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 70
-      }
-    ]
-  },
-  "2022-06-16": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
+        "40785b",
         "43ee55"
       ],
-      "flightminutes": 1282.7900000000004,
-      "flighthours": 21.37983333333334
+      "flightminutes": 1439.8850000000002,
+      "flighthours": 23.998083333333337
     },
     "jora": [
       {
-        "id": "1057698",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-06-14": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ee55"
-      ],
-      "flightminutes": 1199.9666666666667,
-      "flighthours": 19.999444444444446
-    },
-    "jora": [
-      {
-        "id": "1054889",
+        "id": "1092734",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Tunisia",
-        "boatType": "wooden boat",
+        "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 20
       }
     ]
   },
@@ -6450,31 +5940,6 @@
       }
     ]
   },
-  "2022-02-18": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "4079f3",
-        "43ed4b",
-        "43ee55",
-        "4860b1",
-        "4d232d"
-      ],
-      "flightminutes": 2047.2583333333332,
-      "flighthours": 34.12097222222222
-    },
-    "jora": [
-      {
-        "id": "890958",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 45
-      }
-    ]
-  },
   "2022-07-18": {
     "adsb": {
       "assets": [
@@ -6493,62 +5958,6 @@
         "boatType": "fishing boat",
         "disembarkation": "",
         "migrantsDetered": 4
-      }
-    ]
-  },
-  "2022-06-30": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4079f3",
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 2138.1216666666664,
-      "flighthours": 35.63536111111111
-    },
-    "jora": [
-      {
-        "id": "1082461",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 60
-      }
-    ]
-  },
-  "2022-06-26": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 1652.3283333333334,
-      "flighthours": 27.538805555555555
-    },
-    "jora": [
-      {
-        "id": "1081018",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 80
-      },
-      {
-        "id": "1072620",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 80,
-        "duplicate": true
       }
     ]
   },
@@ -6575,30 +5984,6 @@
       }
     ]
   },
-  "2022-02-12": {
-    "adsb": {
-      "assets": [
-        "4079f3",
-        "43ed4b",
-        "4860b1",
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 2405.8816666666667,
-      "flighthours": 40.09802777777778
-    },
-    "jora": [
-      {
-        "id": "885488",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
   "2022-07-22": {
     "adsb": {
       "assets": [
@@ -6612,6 +5997,15 @@
       "flighthours": 29.537605555555544
     },
     "jora": [
+      {
+        "id": "1132828",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
       {
         "id": "1132845",
         "detectionBy": "YES",
@@ -6638,60 +6032,6 @@
         "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 10
-      },
-      {
-        "id": "1132828",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
-      }
-    ]
-  },
-  "2022-01-27": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "4d232d",
-        "4d2376"
-      ],
-      "flightminutes": 1342.7233333333331,
-      "flighthours": 22.37872222222222
-    },
-    "jora": [
-      {
-        "id": "874168",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 40
-      }
-    ]
-  },
-  "2022-06-23": {
-    "adsb": {
-      "assets": [
-        "407637",
-        "40785b",
-        "4079f3",
-        "4d232d"
-      ],
-      "flightminutes": 2125.33,
-      "flighthours": 35.42216666666666
-    },
-    "jora": [
-      {
-        "id": "1069495",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "fishing boat",
-        "disembarkation": "",
-        "migrantsDetered": 30
       }
     ]
   },
@@ -6774,8 +6114,7 @@
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "",
-        "migrantsDetered": 25,
-        "duplicate": true
+        "migrantsDetered": 25
       },
       {
         "id": "1138006",
@@ -6788,54 +6127,50 @@
       }
     ]
   },
-  "2022-07-01": {
+  "2022-07-27": {
     "adsb": {
       "assets": [
         "407637",
-        "40785b",
         "4079f3",
-        "43ee55",
         "4d232d"
       ],
-      "flightminutes": 2756.0716666666667,
-      "flighthours": 45.93452777777778
+      "flightminutes": 1670.7518333333333,
+      "flighthours": 27.84586388888889
     },
     "jora": [
       {
-        "id": "1086253",
+        "id": "1138019",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 61
+        "migrantsDetered": 50
       }
     ]
   },
-  "2022-02-13": {
+  "2022-07-28": {
     "adsb": {
       "assets": [
+        "407637",
         "4079f3",
-        "43ed4b",
-        "4860b1",
-        "4d232d",
-        "4d2376"
+        "4d232d"
       ],
-      "flightminutes": 2605.181666666667,
-      "flighthours": 43.419694444444445
+      "flightminutes": 1533.9061666666666,
+      "flighthours": 25.565102777777778
     },
     "jora": [
       {
-        "id": "885837",
+        "id": "1139992",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
-        "boatType": "wooden boat",
+        "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 65
+        "migrantsDetered": 40
       },
       {
-        "id": "885849",
+        "id": "1140219",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -6845,71 +6180,273 @@
       }
     ]
   },
-  "2021-11-12": {
+  "2022-07-30": {
     "adsb": {
       "assets": [
-        "43ee55",
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d0291",
         "4d232d"
       ],
-      "flightminutes": 797.3616666666666,
-      "flighthours": 13.28936111111111
+      "flightminutes": 968.4381666666666,
+      "flighthours": 16.14063611111111
     },
     "jora": [
       {
-        "id": "804082",
+        "id": "1150785",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Tunisia",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 20
+      }
+    ]
+  },
+  "2022-07-31": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 2136.2208333333333,
+      "flighthours": 35.603680555555556
+    },
+    "jora": [
+      {
+        "id": "1150829",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 35
       }
     ]
   },
-  "2021-11-13": {
+  "2022-08-02": {
     "adsb": {
       "assets": [
+        "407637",
         "40785b",
-        "43ed4b",
         "4d232d"
       ],
-      "flightminutes": 1614.8733333333334,
-      "flighthours": 26.91455555555556
+      "flightminutes": 1714.2188333333336,
+      "flighthours": 28.570313888888894
     },
     "jora": [
       {
-        "id": "804095",
+        "id": "1155077",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 25
+      }
+    ]
+  },
+  "2022-08-07": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 2356.537166666667,
+      "flighthours": 39.27561944444445
+    },
+    "jora": [
+      {
+        "id": "1165650",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 25
+      }
+    ]
+  },
+  "2022-08-08": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1878.9793333333334,
+      "flighthours": 31.316322222222222
+    },
+    "jora": [
+      {
+        "id": "1165750",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 50
+      },
+      {
+        "id": "1171627",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 200
       }
     ]
   },
-  "2021-11-21": {
+  "2022-08-09": {
     "adsb": {
       "assets": [
-        "43ed4b",
+        "407637",
         "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1389.6683333333333,
-      "flighthours": 23.16113888888889
+      "flightminutes": 1739.7609999999997,
+      "flighthours": 28.996016666666662
     },
     "jora": [
       {
-        "id": "812312",
+        "id": "1169127",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 15
+      }
+    ]
+  },
+  "2022-08-10": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1867.5193333333334,
+      "flighthours": 31.125322222222223
+    },
+    "jora": [
+      {
+        "id": "1174073",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 20
+      }
+    ]
+  },
+  "2022-08-12": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "43ee55"
+      ],
+      "flightminutes": 592.4623333333334,
+      "flighthours": 9.874372222222224
+    },
+    "jora": [
+      {
+        "id": "1182541",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2022-08-16": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1790.9138333333333,
+      "flighthours": 29.848563888888886
+    },
+    "jora": [
+      {
+        "id": "1184613",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-08-17": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1690.6528333333335,
+      "flighthours": 28.177547222222227
+    },
+    "jora": [
+      {
+        "id": "1187922",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      }
+    ]
+  },
+  "2022-08-24": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1453.2883333333334,
+      "flighthours": 24.221472222222225
+    },
+    "jora": [
+      {
+        "id": "1204652",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 40
+        "migrantsDetered": 70
       },
       {
-        "id": "812321",
+        "id": "1204668",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "1204675",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -6919,19 +6456,107 @@
       }
     ]
   },
-  "2021-10-17": {
+  "2022-08-27": {
     "adsb": {
       "assets": [
         "40785b",
+        "4079f3",
         "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1360.8183333333334,
-      "flighthours": 22.680305555555556
+      "flightminutes": 2032.2206666666666,
+      "flighthours": 33.87034444444444
     },
     "jora": [
       {
-        "id": "778064",
+        "id": "1213617",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      },
+      {
+        "id": "1213629",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "1213658",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2022-08-29": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1524.6378333333334,
+      "flighthours": 25.410630555555556
+    },
+    "jora": [
+      {
+        "id": "1216693",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      }
+    ]
+  },
+  "2022-08-30": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1909.9618333333337,
+      "flighthours": 31.83269722222223
+    },
+    "jora": [
+      {
+        "id": "1219106",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 100
+      }
+    ]
+  },
+  "2022-08-31": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1842.1338333333333,
+      "flighthours": 30.702230555555555
+    },
+    "jora": [
+      {
+        "id": "1219522",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -6941,51 +6566,94 @@
       }
     ]
   },
-  "2021-10-18": {
+  "2022-09-01": {
     "adsb": {
       "assets": [
-        "40785b",
-        "43ed4b",
-        "43ee55",
-        "4d232d"
+        "407637",
+        "40785b"
       ],
-      "flightminutes": 1660.6066666666666,
-      "flighthours": 27.676777777777776
+      "flightminutes": 1192.5590000000002,
+      "flighthours": 19.875983333333338
     },
     "jora": [
       {
-        "id": "778128",
+        "id": "1223272",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
-      },
-      {
-        "id": "778141",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 30,
-        "duplicate": true
+        "migrantsDetered": 120
       }
     ]
   },
-  "2021-10-22": {
+  "2022-09-02": {
     "adsb": {
       "assets": [
+        "407637",
         "40785b",
-        "43ee55"
+        "4d232d"
       ],
-      "flightminutes": 1219.8366666666666,
-      "flighthours": 20.33061111111111
+      "flightminutes": 1764.587333333333,
+      "flighthours": 29.409788888888883
     },
     "jora": [
       {
-        "id": "782394",
+        "id": "1229230",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 75
+      }
+    ]
+  },
+  "2022-09-03": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "43eed2",
+        "4d232d"
+      ],
+      "flightminutes": 2075.7463333333326,
+      "flighthours": 34.59577222222221
+    },
+    "jora": [
+      {
+        "id": "1229243",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 100
+      },
+      {
+        "id": "1229265",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2022-09-08": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43eed2"
+      ],
+      "flightminutes": 761.6909999999999,
+      "flighthours": 12.694849999999999
+    },
+    "jora": [
+      {
+        "id": "1240073",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -6995,18 +6663,137 @@
       }
     ]
   },
-  "2021-11-24": {
+  "2022-09-10": {
     "adsb": {
       "assets": [
+        "40785b",
         "43ee55",
-        "4d232d"
+        "43eed2",
+        "4d232d",
+        "4d2355"
       ],
-      "flightminutes": 1228.8383333333334,
-      "flighthours": 20.48063888888889
+      "flightminutes": 1172.2436666666665,
+      "flighthours": 19.53739444444444
     },
     "jora": [
       {
-        "id": "814259",
+        "id": "1244590",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2022-09-12": {
+    "adsb": {
+      "assets": [
+        "43eed2",
+        "4d232d",
+        "4d2355"
+      ],
+      "flightminutes": 1606.5313333333334,
+      "flighthours": 26.77552222222222
+    },
+    "jora": [
+      {
+        "id": "1249516",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 15
+      },
+      {
+        "id": "1249525",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-09-13": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "43eed2",
+        "4d232d"
+      ],
+      "flightminutes": 1392.2259999999999,
+      "flighthours": 23.203766666666663
+    },
+    "jora": [
+      {
+        "id": "1249542",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "1249558",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2022-09-14": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43eed2",
+        "4d232d"
+      ],
+      "flightminutes": 1488.1169999999997,
+      "flighthours": 24.801949999999994
+    },
+    "jora": [
+      {
+        "id": "1250900",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Tunisia",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 15
+      }
+    ]
+  },
+  "2022-10-08": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 1681.327833333333,
+      "flighthours": 28.022130555555552
+    },
+    "jora": [
+      {
+        "id": "1300745",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "1300762",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -7015,7 +6802,57 @@
         "migrantsDetered": 40
       },
       {
-        "id": "815906",
+        "id": "1300773",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      },
+      {
+        "id": "1300782",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      },
+      {
+        "id": "1300789",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 30
+      }
+    ]
+  },
+  "2022-10-09": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 2080.635333333333,
+      "flighthours": 34.677255555555554
+    },
+    "jora": [
+      {
+        "id": "1300842",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 40
+      },
+      {
+        "id": "1300862",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
@@ -7024,103 +6861,432 @@
         "migrantsDetered": 50
       },
       {
-        "id": "815910",
+        "id": "1300888",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
-        "country": "Tunisia",
-        "boatType": "wooden boat",
+        "country": "Libya",
+        "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 487
+        "migrantsDetered": 50
       }
     ]
   },
-  "2021-11-03": {
+  "2022-10-13": {
     "adsb": {
       "assets": [
+        "407637",
         "40785b",
-        "4d232d"
+        "4079f3"
       ],
-      "flightminutes": 1238.9683333333332,
-      "flighthours": 20.649472222222222
+      "flightminutes": 1381.915,
+      "flighthours": 23.031916666666667
     },
     "jora": [
       {
-        "id": "794508",
+        "id": "1308995",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-10-17": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 781.0930000000001,
+      "flighthours": 13.018216666666667
+    },
+    "jora": [
+      {
+        "id": "1318424",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2022-10-18": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "4079f3",
+        "43ee55"
+      ],
+      "flightminutes": 798.0778333333335,
+      "flighthours": 13.301297222222225
+    },
+    "jora": [
+      {
+        "id": "1320130",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
+      }
+    ]
+  },
+  "2022-10-19": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1018.6778333333334,
+      "flighthours": 16.97796388888889
+    },
+    "jora": [
+      {
+        "id": "1321463",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "",
-        "migrantsDetered": 12
-      },
-      {
-        "id": "794513",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 70
+        "migrantsDetered": 30
       }
     ]
   },
-  "2021-11-23": {
+  "2022-10-22": {
     "adsb": {
       "assets": [
+        "40785b",
+        "4079f3",
         "43ee55",
         "4d232d"
       ],
-      "flightminutes": 1424.7350000000001,
-      "flighthours": 23.745583333333336
+      "flightminutes": 2889.0081666666665,
+      "flighthours": 48.15013611111111
     },
     "jora": [
       {
-        "id": "813184",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "rubber boat",
-        "disembarkation": "",
-        "migrantsDetered": 50
-      }
-    ]
-  },
-  "2021-10-23": {
-    "adsb": {
-      "assets": [
-        "43ee55",
-        "4d232d"
-      ],
-      "flightminutes": 1246.8916666666669,
-      "flighthours": 20.781527777777782
-    },
-    "jora": [
-      {
-        "id": "784811",
-        "detectionBy": "YES",
-        "detectionInitiated": "FRONTEX",
-        "country": "Libya",
-        "boatType": "wooden boat",
-        "disembarkation": "",
-        "migrantsDetered": 20
-      },
-      {
-        "id": "784826",
+        "id": "1329415",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
         "migrantsDetered": 60
-      },
+      }
+    ]
+  },
+  "2022-10-25": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1197.6371666666666,
+      "flighthours": 19.960619444444443
+    },
+    "jora": [
       {
-        "id": "784851",
+        "id": "1335934",
         "detectionBy": "YES",
         "detectionInitiated": "FRONTEX",
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
         "migrantsDetered": 70
+      }
+    ]
+  },
+  "2022-10-27": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 787.9830000000001,
+      "flighthours": 13.13305
+    },
+    "jora": [
+      {
+        "id": "1338225",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 75
+      }
+    ]
+  },
+  "2022-10-30": {
+    "adsb": {
+      "assets": [
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 847.5541666666666,
+      "flighthours": 14.125902777777776
+    },
+    "jora": [
+      {
+        "id": "1343938",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 14
+      }
+    ]
+  },
+  "2022-10-31": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "43ee55"
+      ],
+      "flightminutes": 1080.7491666666665,
+      "flighthours": 18.01248611111111
+    },
+    "jora": [
+      {
+        "id": "1348699",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 84
+      }
+    ]
+  },
+  "2022-11-02": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1968.2685000000001,
+      "flighthours": 32.804475000000004
+    },
+    "jora": [
+      {
+        "id": "1351232",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 10
+      }
+    ]
+  },
+  "2022-11-08": {
+    "adsb": {
+      "assets": [
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1265.2966666666669,
+      "flighthours": 21.08827777777778
+    },
+    "jora": [
+      {
+        "id": "1365125",
+        "detectionBy": "YES",
+        "detectionInitiated": "LUX",
+        "country": "Tunisia",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 3
+      }
+    ]
+  },
+  "2022-11-10": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "43ee55",
+        "4d232d"
+      ],
+      "flightminutes": 1615.9496666666669,
+      "flighthours": 26.932494444444448
+    },
+    "jora": [
+      {
+        "id": "1372446",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-12-04": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1714.4595,
+      "flighthours": 28.574324999999998
+    },
+    "jora": [
+      {
+        "id": "1410357",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "fishing boat",
+        "disembarkation": "",
+        "migrantsDetered": 114
+      }
+    ]
+  },
+  "2022-12-05": {
+    "adsb": {
+      "assets": [
+        "407637",
+        "40785b",
+        "4d232d"
+      ],
+      "flightminutes": 1483.1268333333333,
+      "flighthours": 24.718780555555554
+    },
+    "jora": [
+      {
+        "id": "1411820",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 60
+      }
+    ]
+  },
+  "2022-12-07": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 1722.0185000000001,
+      "flighthours": 28.700308333333336
+    },
+    "jora": [
+      {
+        "id": "1418344",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 67
+      }
+    ]
+  },
+  "2023-01-02": {
+    "adsb": {
+      "assets": [
+        "4079f3",
+        "43eed2",
+        "4d232d"
+      ],
+      "flightminutes": 1567.473,
+      "flighthours": 26.12455
+    },
+    "jora": [
+      {
+        "id": "1454734",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      },
+      {
+        "id": "1454755",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 80
+      }
+    ]
+  },
+  "2023-01-04": {
+    "adsb": {
+      "assets": [
+        "4079f3",
+        "43eed2",
+        "4d232d"
+      ],
+      "flightminutes": 1277.9790000000003,
+      "flighthours": 21.299650000000003
+    },
+    "jora": [
+      {
+        "id": "1460640",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 85
+      }
+    ]
+  },
+  "2023-01-25": {
+    "adsb": {
+      "assets": [
+        "40785b",
+        "4079f3",
+        "4d232d"
+      ],
+      "flightminutes": 1363.9516666666668,
+      "flighthours": 22.73252777777778
+    },
+    "jora": [
+      {
+        "id": "1499140",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "wooden boat",
+        "disembarkation": "",
+        "migrantsDetered": 25
+      },
+      {
+        "id": "1499142",
+        "detectionBy": "YES",
+        "detectionInitiated": "FRONTEX",
+        "country": "Libya",
+        "boatType": "rubber boat",
+        "disembarkation": "",
+        "migrantsDetered": 50
       }
     ]
   },
@@ -7409,17 +7575,6 @@
     },
     "jora": []
   },
-  "2021-11-16": {
-    "adsb": {
-      "assets": [
-        "43ed4b",
-        "4d232d"
-      ],
-      "flightminutes": 1360.55,
-      "flighthours": 22.675833333333333
-    },
-    "jora": []
-  },
   "2023-05-26": {
     "adsb": {
       "assets": [
@@ -7620,18 +7775,6 @@
       ],
       "flightminutes": 1136.0216666666665,
       "flighthours": 18.93369444444444
-    },
-    "jora": []
-  },
-  "2021-11-08": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43ed4b",
-        "4d232d"
-      ],
-      "flightminutes": 1533.8883333333335,
-      "flighthours": 25.56480555555556
     },
     "jora": []
   },
@@ -11244,18 +11387,6 @@
     },
     "jora": []
   },
-  "2021-10-31": {
-    "adsb": {
-      "assets": [
-        "40785b",
-        "43ed4b",
-        "4d232d"
-      ],
-      "flightminutes": 1399.27,
-      "flighthours": 23.321166666666667
-    },
-    "jora": []
-  },
   "2024-01-31": {
     "adsb": {
       "assets": [
@@ -11917,17 +12048,6 @@
       ],
       "flightminutes": 190.81866666666664,
       "flighthours": 3.1803111111111106
-    },
-    "jora": []
-  },
-  "2021-09-21": {
-    "adsb": {
-      "assets": [
-        "406870",
-        "4d232d"
-      ],
-      "flightminutes": 1001.7466666666666,
-      "flighthours": 16.695777777777774
     },
     "jora": []
   },
@@ -16937,16 +17057,6 @@
     },
     "jora": []
   },
-  "2021-11-02": {
-    "adsb": {
-      "assets": [
-        "4d232d"
-      ],
-      "flightminutes": 1001.2383333333333,
-      "flighthours": 16.687305555555557
-    },
-    "jora": []
-  },
   "2022-08-25": {
     "adsb": {
       "assets": [
@@ -18011,16 +18121,6 @@
       ],
       "flightminutes": 688.7691666666665,
       "flighthours": 11.479486111111108
-    },
-    "jora": []
-  },
-  "2021-11-04": {
-    "adsb": {
-      "assets": [
-        "4d232d"
-      ],
-      "flightminutes": 983.8799999999999,
-      "flighthours": 16.398
     },
     "jora": []
   },
@@ -21899,16 +21999,6 @@
       ],
       "flightminutes": 483.1949999999998,
       "flighthours": 8.053249999999997
-    },
-    "jora": []
-  },
-  "2021-09-29": {
-    "adsb": {
-      "assets": [
-        "4d232d"
-      ],
-      "flightminutes": 697.4500000000002,
-      "flighthours": 11.62416666666667
     },
     "jora": []
   },

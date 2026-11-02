@@ -1,5 +1,5 @@
 {
-  "_comment": "Auto-ported from 20261025_Report_final_LP_GR.docx via scripts/docx_to_report.py. Structural port (sections/blocks/runs/footnotes); external link URLs and figure images are placeholders where unknown. NEEDS EDITORIAL VERIFICATION against the docx.",
+  "_comment": "Auto-ported from 20261102_Report_final.docx via scripts/docx_to_report.py. Structural port (sections/blocks/runs/footnotes); external link URLs and figure images are placeholders where unknown. NEEDS EDITORIAL VERIFICATION against the docx.",
   "sections": [
     {
       "id": "key-takeaways",
@@ -64,7 +64,7 @@
               "bold": true
             },
             {
-              "text": " Between September 2016 and October 2024, Frontex’s aircraft detected at least 611 migrant boats carrying a total of 33,107 passengers who were intercepted and forcibly returned to Libya or Tunisia. In 2021, the year with the most complete data available, "
+              "text": " Between August 2018 and October 2024, Frontex’s aircraft detected at least 611 migrant boats carrying a total of 33,107 passengers who were intercepted and forcibly returned to Libya or Tunisia. In 2021, the year with the most complete data available, "
             },
             {
               "text": "detection by Frontex’s aircraft accounted for at least 36% of all recorded pushbacks",
@@ -1656,7 +1656,7 @@
               "footnoteRef": 92
             },
             {
-              "text": " In addition, Frontex operates a Heron drone from Malta airport. Manufactured by Israel Aerospace Industries (IAI) and operated by ADAS, a subsidiary of the European aerospace giant Airbus, the drone has played a key role in aerial bordering, as described in detail below."
+              "text": " In addition, between May 2021 and April 2026, when it crashed at sea, Frontex operated a Heron drone from Malta airport. Manufactured by Israel Aerospace Industries (IAI) and operated by ADAS, a subsidiary of the European aerospace giant Airbus, the drone played a key role in aerial bordering, as described in detail below."
             }
           ]
         },

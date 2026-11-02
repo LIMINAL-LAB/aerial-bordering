@@ -243,7 +243,9 @@ const MethodologyPage = () => {
             Humanitarian Pilots Initiative and the fleet of NGO-operated
             civil vessels that actively rescue people in distress while also
             bearing witness to the shifting operations of actors in the
-            Central Mediterranean.
+            Central Mediterranean. The estimate of Frontex's annual
+            expenditure on aerial surveillance is based on publicly available
+            tender documents and was produced in collaboration with IrpiMedia.
           </p>
         </section>
 
@@ -358,7 +360,7 @@ const MethodologyPage = () => {
             section correspond to those classified as Grade 3, namely, all
             cases of documented pushbacks in which Frontex's planes or drones
             were directly involved in detecting boats that were eventually
-            forcibly returned to Libya or Tunisia. These amount to 434 cases
+            forcibly returned to Libya or Tunisia. These amount to 486 cases
             of pushbacks that took place in the Central Mediterranean between
             12 August 2018 and 25 January 2023, resulting in the forced return
             of at least 24,968 people. These figures are not hypothetical, but

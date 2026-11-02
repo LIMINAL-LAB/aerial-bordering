@@ -360,7 +360,7 @@ const MethodologyPage = () => {
             section correspond to those classified as Grade 3, namely, all
             cases of documented pushbacks in which Frontex's planes or drones
             were directly involved in detecting boats that were eventually
-            forcibly returned to Libya or Tunisia. These amount to 486 cases
+            forcibly returned to Libya or Tunisia. These amount to 483 cases
             of pushbacks that took place in the Central Mediterranean between
             12 August 2018 and 25 January 2023, resulting in the forced return
             of at least 24,968 people. These figures are not hypothetical, but
@@ -462,18 +462,18 @@ const MethodologyPage = () => {
           <h2 className="methodology-heading">Resources</h2>
           <ul className="methodology-downloads">
             <li>
-              <Download>
+              <Download href="/downloads/LIMINAL_AerialBordering_JORA_Dataset.xlsx">
                 Download the full JORA Dataset appearing in our Database
                 (2019-2023) here
               </Download>
             </li>
             <li>
-              <Download>
+              <Download href="/downloads/LIMINAL_AerialBordering_EUNAVFORMEDIrini_Dataset.xlsx">
                 Download EUNAVFOR MED Irini Dataset (2023-2024) here
               </Download>
             </li>
             <li>
-              <Download>LIMINAL Data Analysis (2025)</Download>
+              <Download href="/downloads/LIMINAL_AerialBordering_DataAnalysis.pdf">LIMINAL Data Analysis (2025)</Download>
             </li>
           </ul>
         </section>

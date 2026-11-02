@@ -316,7 +316,7 @@ const ReportPage = () => {
       </div>
 
       {/* PDF Download Button */}
-      <div className="pdf-download">
+      <a className="pdf-download" href="/downloads/LIMINAL_AerialBordering_Report.pdf" download>
         <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M1 8.64305L7 15L13 8.64305L12.2766 7.95943L7.4975 13.0229L7.4975 1L6.5025 1L6.5025 13.0229L1.72338 7.95943L1 8.64305Z"
@@ -327,7 +327,7 @@ const ReportPage = () => {
           />
         </svg>
         <span>PDF</span>
-      </div>
+      </a>
     </div>
   );
 };

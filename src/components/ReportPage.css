@@ -637,6 +637,7 @@
   font-size: var(--pill-font-size);
   font-weight: 400;
   line-height: var(--pill-line-height);
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.2s ease;
   z-index: 200;

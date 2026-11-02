@@ -8,7 +8,7 @@
 - `src/components/` — pages `HomePage`, `ReportPage`, `DatabasePage`, `MethodologyPage`, plus shared components such as `NavigationBar` and `ContentSection`
 - `src/store/` — shared state (zustand)
 - `src/data/` — report and case data (mostly generated, see below)
-- `public/` — static assets: `logo-erc.png`, `Pixel_sky_Loop1.mp4` (home-page background video), `pattern-media/` (photos, videos and PDFs per incident date, referenced from `src/data/violations.json`) and `report-images/` (webp report figures)
+- `public/` — static assets: `logo-erc.png`, `Pixel_sky_Loop1.mp4` (home-page background video), `pattern-media/` (photos, videos and PDFs per incident date, referenced from `src/data/violations.json`), `report-images/` (webp report figures) and `downloads/` (report PDF, data-analysis PDF and JORA/Irini datasets linked from the Report and Methodology pages)
 - `build/` — Output dir (gitignored)
 
 ## Development Commands
@@ -30,7 +30,7 @@ is likewise generated, by the `frontex-data` pipeline (`just app` there), alongs
 
 - **SPA** with React Router DOM for client-side routing
 - **Four routes:** `/` `HomePage` (investigation highlights), `/report` `ReportPage` (document viewer), `/database` `DatabasePage`, `/methodology` `MethodologyPage`
-- **Key components:** `NavigationBar`, `ContentSection` (highlighted text blocks), `ReportPage` (sticky nav, footnotes, PDF download placeholder (not yet linked to a file), scroll management)
+- **Key components:** `NavigationBar`, `ContentSection` (highlighted text blocks), `ReportPage` (sticky nav, footnotes, PDF download button, scroll management)
 - Dynamic sticky positioning, interactive bidirectional footnotes, custom scroll management with offset calculations
 - **`src/data/app_data_all.json` and `src/data/violations.json` are generated**, in the sibling
   repo `../frontex-data` (`just violations`, `just adsb && just merge`). Do

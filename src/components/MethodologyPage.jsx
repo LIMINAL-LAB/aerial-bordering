@@ -107,7 +107,7 @@ const grades = [
     grade: "Grade 3",
     criteria: "Grade 4 + detection by Frontex asset",
     summary: "Interception detected by Frontex aerial asset",
-    cases: "486",
+    cases: "483",
   },
   {
     grade: "Grade 2",

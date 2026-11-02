@@ -40,5 +40,3 @@ Never hand-edit a generated file. Drafts and design originals live in the gitign
 - The brand font "ABC Diatype Edu" is not shipped (no `@font-face`), so visitors see the
   fallback stack. The home page's highlighted text (`ContentSection.css`) is sized against those
   fallback metrics; re-check it if the font is ever added.
-- `VITE_SITE_PASSWORD` (see `.env.example`) turns on the client-side password gate. It is
-  inlined into the bundle, and `public/` files stay reachable, so it only deters casual visitors.

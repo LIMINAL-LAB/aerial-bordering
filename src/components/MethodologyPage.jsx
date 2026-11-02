@@ -101,20 +101,20 @@ const grades = [
     grade: "Grade 4",
     criteria: "All filtered maritime interceptions recorded in JORA",
     summary: "Documented interception (baseline)",
-    cases: "1109",
+    cases: "1110",
   },
   {
     grade: "Grade 3",
     criteria: "Grade 4 + detection by Frontex asset",
     summary: "Interception detected by Frontex aerial asset",
-    cases: "486",
+    cases: "483",
   },
   {
     grade: "Grade 2",
     criteria:
       "Grade 4 + case matched with separate surveillance operation on same date and People on Board",
     summary: "Indirect confirmation via case matching",
-    cases: "123",
+    cases: "214",
   },
   {
     grade: "Grade 1",
@@ -360,10 +360,10 @@ const MethodologyPage = () => {
             section correspond to those classified as Grade 3, namely, all
             cases of documented pushbacks in which Frontex's planes or drones
             were directly involved in detecting boats that were eventually
-            forcibly returned to Libya or Tunisia. These amount to 486 cases
+            forcibly returned to Libya or Tunisia. These amount to 483 cases
             of pushbacks that took place in the Central Mediterranean between
             12 August 2018 and 25 January 2023, resulting in the forced return
-            of at least 27,892 people. These figures are not hypothetical, but
+            of at least 24,968 people. These figures are not hypothetical, but
             those recorded by the Agency itself.
           </p>
           <p>

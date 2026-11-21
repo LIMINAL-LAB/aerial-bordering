@@ -979,7 +979,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 25
+        "migrantsDetered": 25,
+        "duplicate": true
       }
     ]
   },
@@ -1091,7 +1092,8 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       }
     ]
   },
@@ -1202,7 +1204,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 60
+        "migrantsDetered": 60,
+        "duplicate": true
       }
     ]
   },
@@ -1636,7 +1639,8 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 60
+        "migrantsDetered": 60,
+        "duplicate": true
       },
       {
         "id": "549865",
@@ -1951,7 +1955,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       }
     ]
   },
@@ -2009,7 +2014,8 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 100
+        "migrantsDetered": 100,
+        "duplicate": true
       },
       {
         "id": "607426",
@@ -2301,7 +2307,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 40
+        "migrantsDetered": 40,
+        "duplicate": true
       },
       {
         "id": "628845",
@@ -2310,7 +2317,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 40
+        "migrantsDetered": 40,
+        "duplicate": true
       },
       {
         "id": "628848",
@@ -2337,7 +2345,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 79
+        "migrantsDetered": 79,
+        "duplicate": true
       }
     ]
   },
@@ -2402,7 +2411,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 90
+        "migrantsDetered": 90,
+        "duplicate": true
       }
     ]
   },
@@ -2440,7 +2450,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 100
+        "migrantsDetered": 100,
+        "duplicate": true
       },
       {
         "id": "630491",
@@ -2778,7 +2789,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       }
     ]
   },
@@ -2885,7 +2897,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 10
+        "migrantsDetered": 10,
+        "duplicate": true
       },
       {
         "id": "680329",
@@ -3043,7 +3056,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 20
+        "migrantsDetered": 20,
+        "duplicate": true
       },
       {
         "id": "681090",
@@ -3181,7 +3195,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 15
+        "migrantsDetered": 15,
+        "duplicate": true
       },
       {
         "id": "702389",
@@ -3190,7 +3205,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 15
+        "migrantsDetered": 15,
+        "duplicate": true
       },
       {
         "id": "702404",
@@ -3255,7 +3271,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 7
+        "migrantsDetered": 7,
+        "duplicate": true
       },
       {
         "id": "704620",
@@ -3264,7 +3281,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 7
+        "migrantsDetered": 7,
+        "duplicate": true
       },
       {
         "id": "704625",
@@ -3282,7 +3300,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 50
+        "migrantsDetered": 50,
+        "duplicate": true
       },
       {
         "id": "704637",
@@ -3291,7 +3310,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 30
+        "migrantsDetered": 30,
+        "duplicate": true
       },
       {
         "id": "707127",
@@ -3318,7 +3338,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Tripoli",
-        "migrantsDetered": 10
+        "migrantsDetered": 10,
+        "duplicate": true
       },
       {
         "id": "711010",
@@ -3519,7 +3540,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       },
       {
         "id": "716977",
@@ -3528,7 +3550,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       },
       {
         "id": "717324",
@@ -3555,7 +3578,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       },
       {
         "id": "717365",
@@ -3646,7 +3670,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "Libia",
-        "migrantsDetered": 15
+        "migrantsDetered": 15,
+        "duplicate": true
       }
     ]
   },
@@ -3742,7 +3767,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 30,
+        "duplicate": true
       }
     ]
   },
@@ -3930,7 +3956,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 30,
+        "duplicate": true
       }
     ]
   },
@@ -4261,7 +4288,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 100
+        "migrantsDetered": 100,
+        "duplicate": true
       }
     ]
   },
@@ -4889,7 +4917,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 70
+        "migrantsDetered": 70,
+        "duplicate": true
       },
       {
         "id": "943593",
@@ -5342,7 +5371,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 50,
+        "duplicate": true
       },
       {
         "id": "1019488",
@@ -5414,7 +5444,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 50,
+        "duplicate": true
       },
       {
         "id": "1034763",
@@ -5549,7 +5580,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 50
+        "migrantsDetered": 50,
+        "duplicate": true
       },
       {
         "id": "1041020",
@@ -5750,7 +5782,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 100
+        "migrantsDetered": 100,
+        "duplicate": true
       }
     ]
   },
@@ -5805,7 +5838,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       }
     ]
   },
@@ -6114,7 +6148,8 @@
         "country": "Libya",
         "boatType": "fishing boat",
         "disembarkation": "",
-        "migrantsDetered": 25
+        "migrantsDetered": 25,
+        "duplicate": true
       },
       {
         "id": "1138006",
@@ -6745,7 +6780,8 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 30,
+        "duplicate": true
       }
     ]
   },
@@ -6808,7 +6844,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 30,
+        "duplicate": true
       },
       {
         "id": "1300782",
@@ -6826,7 +6863,8 @@
         "country": "Libya",
         "boatType": "wooden boat",
         "disembarkation": "",
-        "migrantsDetered": 30
+        "migrantsDetered": 30,
+        "duplicate": true
       }
     ]
   },
@@ -7233,7 +7271,8 @@
         "country": "Libya",
         "boatType": "rubber boat",
         "disembarkation": "",
-        "migrantsDetered": 80
+        "migrantsDetered": 80,
+        "duplicate": true
       }
     ]
   },

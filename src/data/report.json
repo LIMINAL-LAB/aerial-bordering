@@ -3216,7 +3216,14 @@
       "n": 21,
       "runs": [
         {
-          "text": " Monitoring of the Libyan Coast Guard training; surveillance of oil exports from Libya; and enhanced information sharing with European police forces. See: “EUNAVFOR MED Operation Sophia: mandate extended until 31 December 2018,” European Council, July 25, 2017, https://www.consilium.europa.eu/en/press/press-releases/2017/07/25/eunavformed-sophia-mandate-extended/"
+          "text": " Monitoring of the Libyan Coast Guard training; surveillance of oil exports from Libya; and enhanced information sharing with European police forces. See: “EUNAVFOR MED Operation Sophia: mandate extended until 31 December 2018,” European Council, July 25, 2017, "
+        },
+        {
+          "text": "https://www.consilium.europa.eu/en/press/press-releases/2017/07/25/eunavformed-sophia-mandate-extended/",
+          "link": {
+            "href": "https://www.consilium.europa.eu/en/press/press-releases/2017/07/25/eunavformed-sophia-mandate-extended/",
+            "external": true
+          }
         }
       ]
     },
@@ -3338,7 +3345,14 @@
           "text": "April, 2023, "
         },
         {
-          "text": "https://www.senato.it/service/PDF/PDFServer/BGT/01373655.pdf."
+          "text": "https://www.senato.it/service/PDF/PDFServer/BGT/01373655.pdf",
+          "link": {
+            "href": "https://www.senato.it/service/PDF/PDFServer/BGT/01373655.pdf",
+            "external": true
+          }
+        },
+        {
+          "text": "."
         }
       ]
     },
@@ -4551,7 +4565,17 @@
       "n": 87,
       "runs": [
         {
-          "text": " Deutscher Bundestag, Wissenschaftliche Dienste, Rechtsfragen zum Abkommen über die Internationale Zivilluftfahrt (ICAO-Abkommen), WD 2-3000-039/22, June 27, 2022, https://www.bundestag.de/resource/blob/905042/9c57b80506fdddaa3821d4c0a1b9bd0a/WD-2-039-22-pdf-data.pdf."
+          "text": " Deutscher Bundestag, Wissenschaftliche Dienste, Rechtsfragen zum Abkommen über die Internationale Zivilluftfahrt (ICAO-Abkommen), WD 2-3000-039/22, June 27, 2022, "
+        },
+        {
+          "text": "https://www.bundestag.de/resource/blob/905042/9c57b80506fdddaa3821d4c0a1b9bd0a/WD-2-039-22-pdf-data.pdf",
+          "link": {
+            "href": "https://www.bundestag.de/resource/blob/905042/9c57b80506fdddaa3821d4c0a1b9bd0a/WD-2-039-22-pdf-data.pdf",
+            "external": true
+          }
+        },
+        {
+          "text": "."
         }
       ]
     },
@@ -4954,7 +4978,17 @@
           "italic": true
         },
         {
-          "text": ", September 29, 2026, https://www.nd-aktuell.de/artikel/1202826.seenotrettung-sea-watch-birgt-ertrunkene-im-mittelmeer-und-kritisiert-frontex.html."
+          "text": ", September 29, 2026, "
+        },
+        {
+          "text": "https://www.nd-aktuell.de/artikel/1202826.seenotrettung-sea-watch-birgt-ertrunkene-im-mittelmeer-und-kritisiert-frontex.html",
+          "link": {
+            "href": "https://www.nd-aktuell.de/artikel/1202826.seenotrettung-sea-watch-birgt-ertrunkene-im-mittelmeer-und-kritisiert-frontex.html",
+            "external": true
+          }
+        },
+        {
+          "text": "."
         }
       ]
     },
@@ -4969,7 +5003,17 @@
           "italic": true
         },
         {
-          "text": ", September 29, 2026, https://www.nd-aktuell.de/artikel/1202826.seenotrettung-sea-watch-birgt-ertrunkene-im-mittelmeer-und-kritisiert-frontex.html."
+          "text": ", September 29, 2026, "
+        },
+        {
+          "text": "https://www.nd-aktuell.de/artikel/1202826.seenotrettung-sea-watch-birgt-ertrunkene-im-mittelmeer-und-kritisiert-frontex.html",
+          "link": {
+            "href": "https://www.nd-aktuell.de/artikel/1202826.seenotrettung-sea-watch-birgt-ertrunkene-im-mittelmeer-und-kritisiert-frontex.html",
+            "external": true
+          }
+        },
+        {
+          "text": "."
         }
       ]
     },

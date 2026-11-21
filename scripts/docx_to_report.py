@@ -140,6 +140,34 @@ def apply_link_markers(runs):
     return runs
 
 
+BARE_URL = re.compile(r"https?://[^\s]+")
+URL_TRAILING_PUNCT = ".,;:)]”’\""
+
+
+def autolink_bare_urls(runs):
+    """This is just a fallback if the doc is not formatted correctly with hyperlinks. Link URLs typed as plain text in the docx (no w:hyperlink), so every footnote URL is clickable.
+
+    Trailing sentence punctuation stays outside the link.
+    """
+    out = []
+    for run in runs:
+        text = run.get("text")
+        if "link" in run or not text or not BARE_URL.search(text):
+            out.append(run)
+            continue
+        pos = 0
+        for m in BARE_URL.finditer(text):
+            url = m.group(0).rstrip(URL_TRAILING_PUNCT)
+            end = m.start() + len(url)
+            if m.start() > pos:
+                out.append({**run, "text": text[pos:m.start()]})
+            out.append({**run, "text": url, "link": {"href": url, "external": True}})
+            pos = end
+        if pos < len(text):
+            out.append({**run, "text": text[pos:]})
+    return out
+
+
 class FootnoteNumbering:
     """Assigns each footnote id a display number in order of first appearance."""
 
@@ -508,7 +536,7 @@ def build_footnote_runs(footnote_el, rels, footnotes):
             elif not all_runs or "text" not in all_runs[-1]:
                 all_runs.append({"text": " "})
         all_runs.extend(para_runs)
-    return all_runs
+    return autolink_bare_urls(all_runs)
 
 
 def parse_footnotes(zf, footnotes):

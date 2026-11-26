@@ -379,7 +379,7 @@ const MethodologyPage = () => {
           <p>
             This brings the total number of recorded pushbacks involving
             Frontex aerial surveillance between August 2018 and October
-            2024 to at least 611, for a total of 33,107 passengers who were
+            2024 to at least 611, for a total of 34,023 passengers who were
             intercepted and forcibly returned to Libya or Tunisia across the
             combined JORA and EUNAVFOR MED datasets.
           </p>

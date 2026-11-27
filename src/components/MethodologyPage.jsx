@@ -379,8 +379,21 @@ const MethodologyPage = () => {
           <p>
             This brings the total number of recorded pushbacks involving
             Frontex aerial surveillance between August 2018 and October
-            2024 to at least 611, for a total of 33,107 passengers who were
-            intercepted and forcibly returned to Libya or Tunisia across the
+            2024 to at least 611, for a total of 34,023
+            <sup>
+              <a
+                className="methodology-update-mark methodology-update-link"
+                href="#methodology-update-note"
+                onClick={(event) => {
+                  event.preventDefault();
+                  scrollToSection("methodology-update-note", "smooth");
+                  window.history.replaceState(null, "", "#methodology-update-note");
+                }}
+              >
+                *
+              </a>
+            </sup>{" "}
+            passengers who were intercepted and forcibly returned to Libya or Tunisia across the
             combined JORA and EUNAVFOR MED datasets.
           </p>
           <p>
@@ -455,6 +468,10 @@ const MethodologyPage = () => {
             <Int to="/database">Database</Int>, users can search the data by
             category of patterns to reveal additional information about the
             specific events in each pattern.
+          </p>
+          <p id="methodology-update-note" className="methodology-update-note">
+            <span className="methodology-update-mark">*</span>Updated 27 Nov 2026: revised from 33,107 to 34,023 to include 12 cases
+            not captured in the original estimate.<span className="methodology-update-mark">*</span>
           </p>
         </section>
 

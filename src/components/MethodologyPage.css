@@ -95,6 +95,23 @@
   -webkit-hyphens: auto;
 }
 
+/* Red update marker and its unnumbered, same-page update note. */
+.methodology-update-mark {
+  color: #cc0000;
+}
+
+.methodology-update-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.methodology-page .methodology-update-note {
+  color: #777;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 70px;
+}
+
 /* List items hold bare text rather than a <p>, so the list takes the body size
    itself — otherwise it falls back to the browser's 16px. */
 .methodology-page p,

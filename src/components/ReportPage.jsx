@@ -48,11 +48,33 @@ const FootnoteRef = ({ n }) => {
   );
 };
 
-// Wrap a run's text in <strong>/<em> per its bold/italic flags, composing when both are set.
+// Wrap a run's text in <strong>/<em>/ per its bold/italic flags, composing when both are set, then wrap in <sup> and optional red styling.
 const withEmphasis = (text, run) => {
   let node = text;
   if (run.italic) node = <em>{node}</em>;
   if (run.bold) node = <strong>{node}</strong>;
+  if (run.red) node = <span className="report-update-mark">{node}</span>;
+  if (run.superscript) {
+    node = (
+      <sup>
+        {run.updateNoteId ? (
+          <a
+            className="report-update-mark report-update-link"
+            href={`#${run.updateNoteId}`}
+            onClick={(event) => {
+              event.preventDefault();
+              scrollToSection(run.updateNoteId, "smooth");
+              window.history.replaceState(null, "", `#${run.updateNoteId}`);
+            }}
+          >
+            {node}
+          </a>
+        ) : (
+          <span className="report-update-mark">{node}</span>
+        )}
+      </sup>
+    );
+  }
   return node;
 };
 
@@ -104,6 +126,12 @@ const renderBlock = (block, i) => {
   switch (block.type) {
     case "paragraph":
       return <p key={i} className="justify-text">{renderRuns(block.runs)}</p>;
+    case "update-note":
+      return (
+        <p key={i} id={block.id} className="report-update-note justify-text">
+          {renderRuns(block.runs)}
+        </p>
+      );
     case "figure":
       return (
         <ReportFigure

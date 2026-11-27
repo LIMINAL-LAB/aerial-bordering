@@ -223,6 +223,23 @@
   word-wrap: break-word;
 }
 
+/* Red update marker and its unnumbered, same-page update note. */
+.report-update-mark {
+  color: #cc0000;
+}
+
+.report-update-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.report-update-note {
+  color: #777;
+  font-size: 13px !important;
+  line-height: 18px !important;
+  margin-top: 20px !important;
+}
+
 /* Footnote marks are a true superindex: small, bold, and raised by position so
    the line box never grows — a line carrying footnotes must sit on the same
    baseline grid as one without. */

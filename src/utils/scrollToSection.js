@@ -9,6 +9,20 @@ export function scrollToSection(sectionId, behavior = "smooth") {
   const element = document.getElementById(sectionId);
   if (!element) return;
 
+  // Update-note anchors are inline editorial annotations, so centre the note
+  // in the viewport rather than using the section/footnote top positioning.
+  if (sectionId.includes("update-note")) {
+    const elementPosition = element.getBoundingClientRect().top;
+    const elementHeight = element.offsetHeight;
+    const offsetPosition =
+      elementPosition +
+      window.pageYOffset -
+      (window.innerHeight - elementHeight) / 2;
+
+    window.scrollTo({ top: Math.max(0, offsetPosition), behavior });
+    return;
+  }
+
   // A section lands just under the nav rather than mid-page: the heading must
   // clear the scroll-spy read line (NAV_HEIGHT + STICKY_TRIGGER_OFFSET) or the
   // gutter title the reader just clicked never highlights.
